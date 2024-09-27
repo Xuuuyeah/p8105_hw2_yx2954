@@ -10,6 +10,7 @@ output: github_document
 ```{r, echo = FALSE, message = FALSE}
 library(dplyr)
 library(readr)
+library(tidyr)
 ```
 
 ```{r}
@@ -24,7 +25,7 @@ head(subway_df)
 ## Description
 
 The original dataset contains different types of **variables**, **including character**, **logical variable** and double-precision floating point (**numeric variable**); As for the information, it contains **detailed information about subway stations, including station name, exact locations, the routes they serve, entrance/exit information, ADA compliance, vending availability, staffing information, entrance location, corner location and whether the station allows free crossovers**.
-The original dataset has gone through a series of data cleaning process, including **imputing missing data, data pruning, converting the character variable of ADA to logical variable, and normalizing the header into a more cleaning way**. The cleaned data has a dimension of **1,868 × 32**. The data is **tidy**, as now each entry is finely positioned without mixing.
+The original dataset has gone through a series of data cleaning process, including **imputing missing data, data pruning, converting the character variable of ADA to logical variable, and normalizing the header into a more cleaning way**. The cleaned data has a dimension of **1,868 × 32**. The data is **tidy**, as now each value in the entry is finely positioned without mixing.
 
 ## Answer the following questions using these data:
 
@@ -47,3 +48,31 @@ prop_vending = subway_df |>
 ```
 
 There are **`r num_station`** stations, **`r num_ada`** of them are ADA compliant, **`r prop_vending`** of station entrances / exits without vending allow entrance
+
+## Reformat data
+
+```{r}
+subway_tidy_df = 
+  subway_df |>
+  mutate(across(route8:route11, as.character)) |>
+  pivot_longer(
+    cols = starts_with("route"),
+    names_to = "route_number",  
+    values_to = "route_name",   
+    values_drop_na = TRUE      
+  )
+```
+
+Calculate number of A train station with ADA
+
+```{r}
+num_a_ada = 
+  subway_tidy_df |>
+  filter(route_name == "A") |>
+  filter(ada == TRUE) |>
+  nrow()
+```
+
+Of the stations that serve the A train, **`r num_a_ada`** are ADA compliant
+
+# Question 2
