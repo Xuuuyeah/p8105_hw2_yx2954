@@ -1,0 +1,8 @@
+---
+title: "p8105_hw2_yx2954"
+author: "Yiran Xu"
+date: "2024-09-27"
+output: github_document
+---
+
+
