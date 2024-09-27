@@ -5,4 +5,22 @@ date: "2024-09-27"
 output: github_document
 ---
 
+```{r}
+library(dplyr)
+library(readr)
+```
 
+```{r}
+
+subway_df = read_csv("data/NYC_Transit_Subway_Entrance_And_Exit_Data.csv", na = c("NA", "", ".")) |>
+  select(Line, Station_Name = `Station Name`, Station_Latitude = `Station Latitude`, Station_Longitude = `Station Longitude`, Route1:Route11, Entry, Vending, Entrance_Type = `Entrance Type`, ADA) |>
+  mutate(Entry = ifelse(Entry == "YES", TRUE, FALSE))|>
+  janitor::clean_names()
+
+head(subway_df)
+```
+
+## Description
+
+The original dataset contains different types of **variables**, **including character**, **logical variable** and double-precision floating point (**numeric variable**); As for the information, it contains **detailed information about subway stations, including station name, exact locations, the routes they serve, entrance/exit information, ADA compliance, vending availability, staffing information, entrance location, corner location and whether the station allows free crossovers**.
+The original dataset has gone through a series of data cleaning process, including **imputing missing data, data pruning, converting the character variable of ADA to logical variable, and normalizing the header into a more cleaning way**. The cleaned data has a dimension of **1,868 × 32**. The data is **tidy**, as now each entry is finely positioned without mixing.
