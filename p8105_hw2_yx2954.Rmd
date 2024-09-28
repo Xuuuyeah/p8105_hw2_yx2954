@@ -221,5 +221,20 @@ write.csv(merge_df, file = "data/gbb_datasets/merged.csv")
     * The dimensions of the dataframe are **`r nrow(merge_df)`** rows and **`r ncol(merge_df)`** columns. **`r ncol(merge_df)`** variables are bakers' name, age, occupation, hometown, and the series, episodes they were involved in, as well as the scores and results.
 
 
+## Create a reader-friendly table showing the star baker or winner of each episode in Seasons 5 through 10
+
+```{r}
+starWin_df = merge_df |>
+  filter(series >= 5, series <= 10) |>
+  filter(result %in% c("STAR BAKER", "WINNER")) |>
+  select(baker, result, series, episode, everything()) |>
+  arrange(series, episode)
+```
+## Comment on table
+
+According to the data, usually the winner in the final episode will be selected from star bakers. Besides, intuitively, one have more chance to be winner if he/she get the most star baker honor. Howerver, two surprise are observed:
+
+  * 1. the winner of series 5 is not Richard, who won the most star baker, but Nancy, who only won the star baker once.
+  * 2. the winner of series 10 is David, who never won star baker before.
 
 
