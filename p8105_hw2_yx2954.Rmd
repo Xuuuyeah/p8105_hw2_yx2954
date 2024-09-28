@@ -126,7 +126,7 @@ The total weight of trash collected by Professor Trash Wheel was **`r sum(pull(m
 
 # Qustion 3
 
-Import data
+## Import data
 
 ```{r}
 
@@ -143,7 +143,7 @@ results_df = read_csv(file = "data/gbb_datasets/results.csv", skip = 2, na = c("
 
 ```
 
-Check completeness and correctness:
+## Check completeness and correctness:
 
 It can be noted that the names provided in bakers_df are full names, while names in bakes_df and results_df are only the first name. In order to match the names, we should first convert the full name to first name in the bakers_df, and then match the exact baker by name, series, and episode.
 
@@ -155,40 +155,67 @@ bakers_df = bakers_df |>
 check correctness
 
 ```{r}
-anti_join(bakes_df, bakers_df, by = "baker")
+anti_join(bakes_df, bakers_df, by = "baker", "series")
+anti_join(bakers_df, results_df, by = "baker", "series")
+anti_join(results_df, bakers_df, by = "baker", "series")
+
 ```
 
-We found a typo error for the name "Jo", and we should change it
+Comparing the results abve, we may infer that **"Jo"** in **bakes_df**, **Jo** in **bakers_df**, and **Joanne** in **results_df** are the same person, as they both showed in series 2, and remained from episode 1 to 8. 
 
 ```{r}
-bakes_df = bakes_df |>
-  mutate(baker = gsub('"', '', baker))
+bakes_df = 
+  bakes_df |>
+  mutate(baker = ifelse(baker == '"Jo"', "Jo", baker))
 
-anti_join(bakes_df, bakers_df, by = "baker")
+results_df = 
+  results_df  |>
+  mutate(baker = ifelse(baker == "Joanne", "Jo", baker))
+
+anti_join(bakes_df, bakers_df, by = "baker", "series")
+anti_join(results_df, bakers_df, by = "baker", "series")
+
 ```
 
-Now we have done the check of these 2 data frames! We need to further check other variables.
+Now we have improved the correctness of these dataframe, making bakers_df the full list of name. Now check the result of **anti_join** for **results_df** and **bakes_df**
 
 ```{r}
-anti_join(bakes_df, bakers_df, results_df, by = "baker")
-anti_join(bakes_df, bakers_df, results_df, by = c("baker", "series"))
+anti_join(results_df, bakes_df, by = c("baker", "series", "episode"))
+anti_join(bakes_df, results_df, by = c("baker", "series", "episode"))
 ```
 
-No result returned, indicating we have done the checking of correctness and completeness! Now merge them together.
+Many missing info are showed in **bakes_df**, while **results_df** contains all observations in **bakes_df**. Then we should merge **bakes_df** to **results_df** to avoid lost of info.
 
 ```{r}
-merged_df = bakes_df |>
-  left_join(bakers_df, by = c("baker", "series")) |>
-  left_join(results_df, by = c("baker", "series", "episode")) |>
+merge_df = results_df |>
+  left_join(bakes_df, by = c("baker", "series", "episode"))
+```
+
+As **bakers_df** contains all participant info, we should further merge the data frame to **bakers_df**
+
+```{r}
+merge_df = bakers_df |>
+  left_join(results_df, c("baker", "series")) |>
   select(baker, baker_age, baker_occupation, hometown, everything()) |>
-  arrange(baker)
-
-head(merged_df)
+  arrange(series)
 ```
+
 
 ## Data cleaning process
 *   1. Important datasets
-Briefly go over three datasets, it is found that the header for baker name in **bakers_df** is **"baker_name"**, while it in other data frames are **"baker"**. Should first change the header to the same by **"mutate()"** function before merging. **"janitor:clean_names()"** was also applied to adjust the header to be more readable. For **results_df**, it was noticed that first two rows are either blank or notes. Therefore I deleted these rows by **"skip()"**
+    * Briefly go over three datasets, it is found that the header for baker name in **bakers_df** is **"baker_name"**, while it in other data frames are **"baker"**. Should first change the header to the same by **"mutate()"** function before merging.
+    * **"janitor:clean_names()"** was also applied to adjust the header to be more readable. For **results_df**, it was noticed that first two rows are either blank or notes. Therefore I deleted these rows by **"skip()"**
 
-*   2. Check completeness and correctness
-It can be noted by **anti_join()** that the names provided in **bakers_df** are full names, while names in **bakes_df** and **results_df** are only the first name. In order to match the names, we should first convert the full name to first name in the **bakers_df**. Check again with **anti_join()**, We found a typo error for **"Jo"** with quotation mark. I then applied **"mutate()"** and **"gsub()"** functions to get rid of the quotation mark. Check with **anti_join()** again, no returns, indicating cleaning process had done.
+*   2. Check completeness and correctness -- By **anti_join()**
+    * The name shown in **bakers_df** were full names, while they were first names in other data frames. Should first convert full name to first name before merging.
+    * By checking missing names in **results_df** and **bakers_df** against **bakers_df**, I found that the name **"Jo"** and **Joanne** could be **Jo** in **bakers_df** by typing error. Therefore change the name to **Jo** by **mutate() and **ifelse()** function. 
+    * Further doing mutual check, I found that the proportion of missing info is sorted by: **bakers_df** > **results_df** > **bakers_df**. Also, all bakers in **bakes_df** can be found in **results_df**, all bakers in **results_df** can be found in **bakers_df**. Therefore, should first merge the smallest data frame to the medium one, and eventually to the largest on, i.e **bakes_df** to **results_df** to **bakers_df**. 
+
+*   3. Merged into final dataset
+    * Finally rearrange the order of variable and observations to make it more reasonable. In specific, I put personal information in front of competition results, and sorted the observation by name in ascending order.
+    
+*   4. Brief description of final dataset
+    * The dimensions of the dataframe are **`r nrow(merge_df)`** rows and **`r ncol(merge_df)`** columns. **`r ncol(merge_df)`** variables are bakers' name, age, occupation, hometown, and the series, episodes they were involved in, as well as the scores and results.
+
+    
+
