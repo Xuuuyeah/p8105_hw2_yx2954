@@ -12,6 +12,8 @@ library(dplyr)
 library(readr)
 library(tidyr)
 library(readxl)
+library(tidyverse)
+library(stringr)
 ```
 
 ```{r}
@@ -80,11 +82,11 @@ Of the stations that serve the A train, **`r num_a_ada`** are ADA compliant
 # Question 2
 
 ```{r}
-mr_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+mr_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", range = "A2:N587", na = c("NA", "", ",")) |>
   filter(!is.na(Dumpster)) |>
   janitor::clean_names() |>
-  mutate(sports_balls = as.integer(round(sports_balls, 0))) |>
-  select(-x15, -x16)
+  mutate(sports_balls = as.integer(round(sports_balls, 0)), homes_powered = (
+      weight_tons*500/30))
 
 head(mr_df)
 ```
@@ -95,20 +97,32 @@ Import other data frames
 mr_df = mr_df |>
   mutate(trash_wheel = "Mr. Trash Wheel")
 
-prof_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+prof_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", range = "A2:M109", na = c("NA", "", ",")) |>
   filter(!is.na(Dumpster)) |>
   janitor::clean_names() |>
-  mutate(year = as.character(year), trash_wheel = "Professor Trash Wheel")
+  mutate(year = as.character(year), trash_wheel = "Professor Trash Wheel", homes_powered = (
+      weight_tons*500/30))
 
-Gwyn_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+gwyn_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", range = "A2:L159", skip = 1, na = c("NA", "", ",")) |>
   filter(!is.na(Dumpster)) |>
   janitor::clean_names() |>
-  mutate(year = as.character(year), trash_wheel = "Gwynnda Trash Wheel")
+  mutate(year = as.character(year), trash_wheel = "Gwynnda Trash Wheel",homes_powered = (
+      weight_tons*500/30))
 ```
 
 Combine all data frame
 
 ```{r}
-combined_df = bind_rows(mr_df, prof_df, Gwyn_df)
+combined_df = bind_rows(mr_df, prof_df, gwyn_df) |>
+  janitor::clean_names() |>
+  arrange(date, dumpster) 
 ```
+
+## data descrption
+
+In total, the combined dataset contains **`r nrow(combined_df)`** observations. Key variables include the exact date when collecting data, the weight, volume of different type of trash collected. The data collected by different dumpster is denoted by the variable trash_wheel. It should be noted that the three types of dumpster has differerent number of variables. For Mr. Trash Wheel, it has **`r ncol(mr_df)`** variables, while Professor Trash Wheel and Gwynnda Trash Wheel has **`r ncol(prof_df)`** and **`r ncol(gwyn_df)`** variables, respectively.
+The total weight of trash collected by Professor Trash Wheel was **`r sum(pull(mr_df, weight_tons))`** tons. The total number of cigarette butts collected by Gwynnda in June of 2022 **`r sum(gwyn_df |> filter(year == 2022, month == "June") |> pull(cigarette_butts))`**
+
+
+
 
