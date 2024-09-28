@@ -158,7 +158,7 @@ check correctness
 anti_join(bakes_df, bakers_df, by = "baker")
 ```
 
-We found that their is a typo error for the name "Jo", and we should change it
+We found a typo error for the name "Jo", and we should change it
 
 ```{r}
 bakes_df = bakes_df |>
@@ -180,6 +180,15 @@ No result returned, indicating we have done the checking of correctness and comp
 merged_df = bakes_df |>
   left_join(bakers_df, by = c("baker", "series")) |>
   left_join(results_df, by = c("baker", "series", "episode")) |>
-  select(baker, baker_age, baker_occupation, hometown, everything())
+  select(baker, baker_age, baker_occupation, hometown, everything()) |>
+  arrange(baker)
+
+head(merged_df)
 ```
 
+## Data cleaning process
+*   1. Important datasets
+Briefly go over three datasets, it is found that the header for baker name in **bakers_df** is **"baker_name"**, while it in other data frames are **"baker"**. Should first change the header to the same by **"mutate()"** function before merging. **"janitor:clean_names()"** was also applied to adjust the header to be more readable. For **results_df**, it was noticed that first two rows are either blank or notes. Therefore I deleted these rows by **"skip()"**
+
+*   2. Check completeness and correctness
+It can be noted by **anti_join()** that the names provided in **bakers_df** are full names, while names in **bakes_df** and **results_df** are only the first name. In order to match the names, we should first convert the full name to first name in the **bakers_df**. Check again with **anti_join()**, We found a typo error for **"Jo"** with quotation mark. I then applied **"mutate()"** and **"gsub()"** functions to get rid of the quotation mark. Check with **anti_join()** again, no returns, indicating cleaning process had done.
