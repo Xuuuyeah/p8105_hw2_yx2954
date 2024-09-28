@@ -28,7 +28,7 @@ head(subway_df)
 ## Description
 
 The original dataset contains different types of **variables**, **including character**, **logical variable** and double-precision floating point (**numeric variable**); As for the information, it contains **detailed information about subway stations, including station name, exact locations, the routes they serve, entrance/exit information, ADA compliance, vending availability, staffing information, entrance location, corner location and whether the station allows free crossovers**.
-The original dataset has gone through a series of data cleaning process, including **imputing missing data, data pruning, converting the character variable of ADA to logical variable, and normalizing the header into a more cleaning way**. The cleaned data has a dimension of **1,868 × 32**. The data is **tidy**, as now each value in the entry is finely positioned without mixing.
+The original dataset has gone through a series of data cleaning process, including **imputing missing data, data pruning, converting the character variable of ADA to logical variable, and normalizing the header into a more cleaning way**. The cleaned data has a dimension of **1,868 × 32**. The data is not **tidy**, as the route takes up 11 columns and too many "NA" inside.
 
 ## Answer the following questions using these data:
 
@@ -236,5 +236,21 @@ According to the data, usually the winner in the final episode will be selected 
 
   * 1. the winner of series 5 is not Richard, who won the most star baker, but Nancy, who only won the star baker once.
   * 2. the winner of series 10 is David, who never won star baker before.
+  
 
+## Import, clean, tidy, and organize the viewership data in viewers.csv
 
+```{r}
+viewer_df = read_csv(file = "data/gbb_datasets/viewers.csv", na = c("NA", "", ".")) |>
+  janitor::clean_names() |>
+  pivot_longer(
+    cols = starts_with("series"),
+    names_to = "series_number",
+    values_to = "viewers",
+    values_drop_na = TRUE  
+  )
+
+head(viewer_df, 10)
+```
+
+The overall viewership in Season 1 is **`r viewer_df %>% filter(series_number == "series_1") %>% pull(viewers) %>% mean()`**, and **`r viewer_df %>% filter(series_number == "series_5") %>% pull(viewers) %>% mean()`** in Season 5
