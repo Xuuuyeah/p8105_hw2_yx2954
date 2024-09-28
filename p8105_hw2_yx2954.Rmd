@@ -124,5 +124,62 @@ In total, the combined dataset contains **`r nrow(combined_df)`** observations. 
 The total weight of trash collected by Professor Trash Wheel was **`r sum(pull(mr_df, weight_tons))`** tons. The total number of cigarette butts collected by Gwynnda in June of 2022 **`r sum(gwyn_df |> filter(year == 2022, month == "June") |> pull(cigarette_butts))`**
 
 
+# Qustion 3
 
+Import data
+
+```{r}
+
+bakers_df = read_csv(file = "data/gbb_datasets/bakers.csv", na = c("NA", "", ".")) |>
+  janitor::clean_names() |>
+  mutate(baker = baker_name) |>
+  select(-baker_name)    
+
+bakes_df = read_csv(file = "data/gbb_datasets/bakes.csv", , na = c("NA", "", ".")) |>
+  janitor::clean_names()
+
+results_df = read_csv(file = "data/gbb_datasets/results.csv", skip = 2, na = c("NA", "", ".")) |>
+  janitor::clean_names()
+
+```
+
+Check completeness and correctness:
+
+It can be noted that the names provided in bakers_df are full names, while names in bakes_df and results_df are only the first name. In order to match the names, we should first convert the full name to first name in the bakers_df, and then match the exact baker by name, series, and episode.
+
+```{r}
+bakers_df = bakers_df |>
+  mutate(baker = str_split(baker, " ", simplify = TRUE)[,1])
+```
+
+check correctness
+
+```{r}
+anti_join(bakes_df, bakers_df, by = "baker")
+```
+
+We found that their is a typo error for the name "Jo", and we should change it
+
+```{r}
+bakes_df = bakes_df |>
+  mutate(baker = gsub('"', '', baker))
+
+anti_join(bakes_df, bakers_df, by = "baker")
+```
+
+Now we have done the check of these 2 data frames! We need to further check other variables.
+
+```{r}
+anti_join(bakes_df, bakers_df, results_df, by = "baker")
+anti_join(bakes_df, bakers_df, results_df, by = c("baker", "series"))
+```
+
+No result returned, indicating we have done the checking of correctness and completeness! Now merge them together.
+
+```{r}
+merged_df = bakes_df |>
+  left_join(bakers_df, by = c("baker", "series")) |>
+  left_join(results_df, by = c("baker", "series", "episode")) |>
+  select(baker, baker_age, baker_occupation, hometown, everything())
+```
 
