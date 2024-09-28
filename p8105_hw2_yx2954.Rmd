@@ -11,6 +11,7 @@ output: github_document
 library(dplyr)
 library(readr)
 library(tidyr)
+library(readxl)
 ```
 
 ```{r}
@@ -75,4 +76,39 @@ num_a_ada =
 
 Of the stations that serve the A train, **`r num_a_ada`** are ADA compliant
 
+
 # Question 2
+
+```{r}
+mr_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Mr. Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+  filter(!is.na(Dumpster)) |>
+  janitor::clean_names() |>
+  mutate(sports_balls = as.integer(round(sports_balls, 0))) |>
+  select(-x15, -x16)
+
+head(mr_df)
+```
+
+Import other data frames
+
+```{r}
+mr_df = mr_df |>
+  mutate(trash_wheel = "Mr. Trash Wheel")
+
+prof_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Professor Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+  filter(!is.na(Dumpster)) |>
+  janitor::clean_names() |>
+  mutate(year = as.character(year), trash_wheel = "Professor Trash Wheel")
+
+Gwyn_df = read_excel("data/202309 Trash Wheel Collection Data.xlsx", sheet = "Gwynnda Trash Wheel", skip = 1, na = c("NA", "", ",")) |>
+  filter(!is.na(Dumpster)) |>
+  janitor::clean_names() |>
+  mutate(year = as.character(year), trash_wheel = "Gwynnda Trash Wheel")
+```
+
+Combine all data frame
+
+```{r}
+combined_df = bind_rows(mr_df, prof_df, Gwyn_df)
+```
+
