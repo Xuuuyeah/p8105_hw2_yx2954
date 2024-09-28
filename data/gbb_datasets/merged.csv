@@ -1,0 +1,1137 @@
+"","baker","result","series","episode","baker_age","baker_occupation","hometown","technical"
+"1","Annetha","IN",1,1,30,"Midwife","Essex",2
+"2","David","IN",1,1,31,"Entrepreneur","Milton Keynes",3
+"3","Edd","IN",1,1,24,"Debt collector for Yorkshire Bank","Bradford",1
+"4","Jasminder","IN",1,1,45,"Assistant Credit Control Manager","Birmingham",NA
+"5","Jonathan","IN",1,1,25,"Research Analyst","St Albans",9
+"6","Lea","OUT",1,1,51,"Retired","Midlothian, Scotland",10
+"7","Louise","IN",1,1,44,"Police Officer","Manchester",NA
+"8","Mark","OUT",1,1,48,"Bus Driver","South Wales",NA
+"9","Miranda","IN",1,1,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",8
+"10","Ruth","IN",1,1,31,"Retail manager/Housewife","Poynton, Cheshire",NA
+"11","Annetha","OUT",1,2,30,"Midwife","Essex",7
+"12","David","IN",1,2,31,"Entrepreneur","Milton Keynes",8
+"13","Edd","IN",1,2,24,"Debt collector for Yorkshire Bank","Bradford",6
+"14","Jasminder","IN",1,2,45,"Assistant Credit Control Manager","Birmingham",2
+"15","Jonathan","IN",1,2,25,"Research Analyst","St Albans",1
+"16","Lea",NA,1,2,51,"Retired","Midlothian, Scotland",NA
+"17","Louise","OUT",1,2,44,"Police Officer","Manchester",4
+"18","Mark",NA,1,2,48,"Bus Driver","South Wales",NA
+"19","Miranda","IN",1,2,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",3
+"20","Ruth","IN",1,2,31,"Retail manager/Housewife","Poynton, Cheshire",5
+"21","Annetha",NA,1,3,30,"Midwife","Essex",NA
+"22","David","IN",1,3,31,"Entrepreneur","Milton Keynes",4
+"23","Edd","IN",1,3,24,"Debt collector for Yorkshire Bank","Bradford",1
+"24","Jasminder","IN",1,3,45,"Assistant Credit Control Manager","Birmingham",5
+"25","Jonathan","OUT",1,3,25,"Research Analyst","St Albans",6
+"26","Lea",NA,1,3,51,"Retired","Midlothian, Scotland",NA
+"27","Louise",NA,1,3,44,"Police Officer","Manchester",NA
+"28","Mark",NA,1,3,48,"Bus Driver","South Wales",NA
+"29","Miranda","IN",1,3,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",3
+"30","Ruth","IN",1,3,31,"Retail manager/Housewife","Poynton, Cheshire",2
+"31","Annetha",NA,1,4,30,"Midwife","Essex",NA
+"32","David","OUT",1,4,31,"Entrepreneur","Milton Keynes",5
+"33","Edd","IN",1,4,24,"Debt collector for Yorkshire Bank","Bradford",3
+"34","Jasminder","IN",1,4,45,"Assistant Credit Control Manager","Birmingham",2
+"35","Jonathan",NA,1,4,25,"Research Analyst","St Albans",NA
+"36","Lea",NA,1,4,51,"Retired","Midlothian, Scotland",NA
+"37","Louise",NA,1,4,44,"Police Officer","Manchester",NA
+"38","Mark",NA,1,4,48,"Bus Driver","South Wales",NA
+"39","Miranda","IN",1,4,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",1
+"40","Ruth","IN",1,4,31,"Retail manager/Housewife","Poynton, Cheshire",4
+"41","Annetha",NA,1,5,30,"Midwife","Essex",NA
+"42","David",NA,1,5,31,"Entrepreneur","Milton Keynes",NA
+"43","Edd","IN",1,5,24,"Debt collector for Yorkshire Bank","Bradford",2
+"44","Jasminder","OUT",1,5,45,"Assistant Credit Control Manager","Birmingham",4
+"45","Jonathan",NA,1,5,25,"Research Analyst","St Albans",NA
+"46","Lea",NA,1,5,51,"Retired","Midlothian, Scotland",NA
+"47","Louise",NA,1,5,44,"Police Officer","Manchester",NA
+"48","Mark",NA,1,5,48,"Bus Driver","South Wales",NA
+"49","Miranda","IN",1,5,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",1
+"50","Ruth","IN",1,5,31,"Retail manager/Housewife","Poynton, Cheshire",3
+"51","Annetha",NA,1,6,30,"Midwife","Essex",NA
+"52","David",NA,1,6,31,"Entrepreneur","Milton Keynes",NA
+"53","Edd","WINNER",1,6,24,"Debt collector for Yorkshire Bank","Bradford",NA
+"54","Jasminder",NA,1,6,45,"Assistant Credit Control Manager","Birmingham",NA
+"55","Jonathan",NA,1,6,25,"Research Analyst","St Albans",NA
+"56","Lea",NA,1,6,51,"Retired","Midlothian, Scotland",NA
+"57","Louise",NA,1,6,44,"Police Officer","Manchester",NA
+"58","Mark",NA,1,6,48,"Bus Driver","South Wales",NA
+"59","Miranda","Runner-up",1,6,37,"Food buyer for Marks & Spencer","Midhurst, West Sussex",NA
+"60","Ruth","Runner-up",1,6,31,"Retail manager/Housewife","Poynton, Cheshire",NA
+"61","Ben","IN",2,1,31,"Graphic Designer","Northampton",2
+"62","Holly","STAR BAKER",2,1,31,"Advertising executive","Leicester",1
+"63","Ian","IN",2,1,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",10
+"64","Janet","IN",2,1,63,"Teacher of Modern Languages","Formby, Liverpool",8
+"65","Jason","IN",2,1,19,"Civil Engineering Student","Croydon",6
+"66","Jo","IN",2,1,41,"Housewife","Ongar, Essex",11
+"67","Keith","OUT",2,1,31,"House husband","Arlesey, Bedfordshire",12
+"68","Mary-Anne","IN",2,1,45,"Housewife","Kidderminster, Worcestershire",4
+"69","Robert","IN",2,1,25,"Photographer","London",3
+"70","Simon","IN",2,1,31,"Rugby Coach","Norfolk",9
+"71","Urvashi","IN",2,1,40,"Head of Marketing","Enfield, London",7
+"72","Yasmin","IN",2,1,43,"Childminder","West Kirby, The Wirral",5
+"73","Ben","IN",2,2,31,"Graphic Designer","Northampton",1
+"74","Holly","IN",2,2,31,"Advertising executive","Leicester",4
+"75","Ian","IN",2,2,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",2
+"76","Janet","IN",2,2,63,"Teacher of Modern Languages","Formby, Liverpool",8
+"77","Jason","STAR BAKER",2,2,19,"Civil Engineering Student","Croydon",3
+"78","Jo","IN",2,2,41,"Housewife","Ongar, Essex",10
+"79","Keith",NA,2,2,31,"House husband","Arlesey, Bedfordshire",NA
+"80","Mary-Anne","IN",2,2,45,"Housewife","Kidderminster, Worcestershire",9
+"81","Robert","IN",2,2,25,"Photographer","London",5
+"82","Simon","OUT",2,2,31,"Rugby Coach","Norfolk",11
+"83","Urvashi","IN",2,2,40,"Head of Marketing","Enfield, London",7
+"84","Yasmin","IN",2,2,43,"Childminder","West Kirby, The Wirral",6
+"85","Ben","IN",2,3,31,"Graphic Designer","Northampton",3
+"86","Holly","IN",2,3,31,"Advertising executive","Leicester",6
+"87","Ian","OUT",2,3,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",10
+"88","Janet","IN",2,3,63,"Teacher of Modern Languages","Formby, Liverpool",8
+"89","Jason","IN",2,3,19,"Civil Engineering Student","Croydon",7
+"90","Jo","IN",2,3,41,"Housewife","Ongar, Essex",1
+"91","Keith",NA,2,3,31,"House husband","Arlesey, Bedfordshire",NA
+"92","Mary-Anne","IN",2,3,45,"Housewife","Kidderminster, Worcestershire",5
+"93","Robert","IN",2,3,25,"Photographer","London",4
+"94","Simon",NA,2,3,31,"Rugby Coach","Norfolk",NA
+"95","Urvashi","OUT",2,3,40,"Head of Marketing","Enfield, London",9
+"96","Yasmin","STAR BAKER",2,3,43,"Childminder","West Kirby, The Wirral",2
+"97","Ben","OUT",2,4,31,"Graphic Designer","Northampton",5
+"98","Holly","STAR BAKER",2,4,31,"Advertising executive","Leicester",3
+"99","Ian",NA,2,4,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",NA
+"100","Janet","IN",2,4,63,"Teacher of Modern Languages","Formby, Liverpool",4
+"101","Jason","STAR BAKER",2,4,19,"Civil Engineering Student","Croydon",1
+"102","Jo","IN",2,4,41,"Housewife","Ongar, Essex",8
+"103","Keith",NA,2,4,31,"House husband","Arlesey, Bedfordshire",NA
+"104","Mary-Anne","IN",2,4,45,"Housewife","Kidderminster, Worcestershire",2
+"105","Robert","IN",2,4,25,"Photographer","London",7
+"106","Simon",NA,2,4,31,"Rugby Coach","Norfolk",NA
+"107","Urvashi",NA,2,4,40,"Head of Marketing","Enfield, London",NA
+"108","Yasmin","IN",2,4,43,"Childminder","West Kirby, The Wirral",6
+"109","Ben",NA,2,5,31,"Graphic Designer","Northampton",NA
+"110","Holly","IN",2,5,31,"Advertising executive","Leicester",4
+"111","Ian",NA,2,5,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",NA
+"112","Janet","STAR BAKER",2,5,63,"Teacher of Modern Languages","Formby, Liverpool",1
+"113","Jason","OUT",2,5,19,"Civil Engineering Student","Croydon",7
+"114","Jo","IN",2,5,41,"Housewife","Ongar, Essex",6
+"115","Keith",NA,2,5,31,"House husband","Arlesey, Bedfordshire",NA
+"116","Mary-Anne","IN",2,5,45,"Housewife","Kidderminster, Worcestershire",2
+"117","Robert","OUT",2,5,25,"Photographer","London",3
+"118","Simon",NA,2,5,31,"Rugby Coach","Norfolk",NA
+"119","Urvashi",NA,2,5,40,"Head of Marketing","Enfield, London",NA
+"120","Yasmin","IN",2,5,43,"Childminder","West Kirby, The Wirral",5
+"121","Ben",NA,2,6,31,"Graphic Designer","Northampton",NA
+"122","Holly","IN",2,6,31,"Advertising executive","Leicester",3
+"123","Ian",NA,2,6,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",NA
+"124","Janet","IN",2,6,63,"Teacher of Modern Languages","Formby, Liverpool",5
+"125","Jason",NA,2,6,19,"Civil Engineering Student","Croydon",NA
+"126","Jo","STAR BAKER",2,6,41,"Housewife","Ongar, Essex",1
+"127","Keith",NA,2,6,31,"House husband","Arlesey, Bedfordshire",NA
+"128","Mary-Anne","IN",2,6,45,"Housewife","Kidderminster, Worcestershire",4
+"129","Robert",NA,2,6,25,"Photographer","London",NA
+"130","Simon",NA,2,6,31,"Rugby Coach","Norfolk",NA
+"131","Urvashi",NA,2,6,40,"Head of Marketing","Enfield, London",NA
+"132","Yasmin","OUT",2,6,43,"Childminder","West Kirby, The Wirral",2
+"133","Ben",NA,2,7,31,"Graphic Designer","Northampton",NA
+"134","Holly","IN",2,7,31,"Advertising executive","Leicester",1
+"135","Ian",NA,2,7,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",NA
+"136","Janet","OUT",2,7,63,"Teacher of Modern Languages","Formby, Liverpool",4
+"137","Jason",NA,2,7,19,"Civil Engineering Student","Croydon",NA
+"138","Jo","IN",2,7,41,"Housewife","Ongar, Essex",3
+"139","Keith",NA,2,7,31,"House husband","Arlesey, Bedfordshire",NA
+"140","Mary-Anne","IN",2,7,45,"Housewife","Kidderminster, Worcestershire",2
+"141","Robert",NA,2,7,25,"Photographer","London",NA
+"142","Simon",NA,2,7,31,"Rugby Coach","Norfolk",NA
+"143","Urvashi",NA,2,7,40,"Head of Marketing","Enfield, London",NA
+"144","Yasmin",NA,2,7,43,"Childminder","West Kirby, The Wirral",NA
+"145","Ben",NA,2,8,31,"Graphic Designer","Northampton",NA
+"146","Holly","Runner-up",2,8,31,"Advertising executive","Leicester",2
+"147","Ian",NA,2,8,40,"Fundraiser for English Heritage","Dunstable, Bedfordshire",NA
+"148","Janet",NA,2,8,63,"Teacher of Modern Languages","Formby, Liverpool",NA
+"149","Jason",NA,2,8,19,"Civil Engineering Student","Croydon",NA
+"150","Jo","WINNER",2,8,41,"Housewife","Ongar, Essex",1
+"151","Keith",NA,2,8,31,"House husband","Arlesey, Bedfordshire",NA
+"152","Mary-Anne","Runner-up",2,8,45,"Housewife","Kidderminster, Worcestershire",3
+"153","Robert",NA,2,8,25,"Photographer","London",NA
+"154","Simon",NA,2,8,31,"Rugby Coach","Norfolk",NA
+"155","Urvashi",NA,2,8,40,"Head of Marketing","Enfield, London",NA
+"156","Yasmin",NA,2,8,43,"Childminder","West Kirby, The Wirral",NA
+"157","Brendan","IN",3,1,63,"Recruitment consultant","Sutton Coldfield",10
+"158","Cathryn","IN",3,1,27,"Shop assistant","Pease Pottage, West Sussex",5
+"159","Danny","IN",3,1,45,"Intensive care consultant","Sheffield",7
+"160","James","IN",3,1,21,"Medical student","Hillswick, Shetland Islands",2
+"161","John","IN",3,1,22,"Law student","Wigan",11
+"162","Manisha","IN",3,1,27,"Nursery nurse","Leicester",6
+"163","Natasha","OUT",3,1,36,"Midwife","Tamworth, Staffordshire",12
+"164","Peter","IN",3,1,43,"Sales manager","Windsor, Berkshire",3
+"165","Ryan","IN",3,1,38,"Photographer","Bristol",8
+"166","Sarah-Jane","IN",3,1,28,"Vicar's wife","Bewbush, West Sussex",1
+"167","Stuart","IN",3,1,26,"PE teacher","Lichfield, Staffordshire",9
+"168","Victoria","STAR BAKER",3,1,50,"CEO of the charity Plantlife","Somerset",4
+"169","Brendan","IN",3,2,63,"Recruitment consultant","Sutton Coldfield",4
+"170","Cathryn","IN",3,2,27,"Shop assistant","Pease Pottage, West Sussex",8
+"171","Danny","IN",3,2,45,"Intensive care consultant","Sheffield",3
+"172","James","IN",3,2,21,"Medical student","Hillswick, Shetland Islands",2
+"173","John","STAR BAKER",3,2,22,"Law student","Wigan",1
+"174","Manisha","IN",3,2,27,"Nursery nurse","Leicester",6
+"175","Natasha",NA,3,2,36,"Midwife","Tamworth, Staffordshire",NA
+"176","Peter","OUT",3,2,43,"Sales manager","Windsor, Berkshire",11
+"177","Ryan","IN",3,2,38,"Photographer","Bristol",5
+"178","Sarah-Jane","IN",3,2,28,"Vicar's wife","Bewbush, West Sussex",10
+"179","Stuart","IN",3,2,26,"PE teacher","Lichfield, Staffordshire",9
+"180","Victoria","IN",3,2,50,"CEO of the charity Plantlife","Somerset",7
+"181","Brendan","IN",3,3,63,"Recruitment consultant","Sutton Coldfield",9
+"182","Cathryn","IN",3,3,27,"Shop assistant","Pease Pottage, West Sussex",3
+"183","Danny","IN",3,3,45,"Intensive care consultant","Sheffield",2
+"184","James","STAR BAKER",3,3,21,"Medical student","Hillswick, Shetland Islands",1
+"185","John","IN",3,3,22,"Law student","Wigan",6
+"186","Manisha","IN",3,3,27,"Nursery nurse","Leicester",10
+"187","Natasha",NA,3,3,36,"Midwife","Tamworth, Staffordshire",NA
+"188","Peter",NA,3,3,43,"Sales manager","Windsor, Berkshire",NA
+"189","Ryan","IN",3,3,38,"Photographer","Bristol",5
+"190","Sarah-Jane","IN",3,3,28,"Vicar's wife","Bewbush, West Sussex",8
+"191","Stuart","IN",3,3,26,"PE teacher","Lichfield, Staffordshire",7
+"192","Victoria","OUT",3,3,50,"CEO of the charity Plantlife","Somerset",4
+"193","Brendan","STAR BAKER",3,4,63,"Recruitment consultant","Sutton Coldfield",1
+"194","Cathryn","IN",3,4,27,"Shop assistant","Pease Pottage, West Sussex",3
+"195","Danny","IN",3,4,45,"Intensive care consultant","Sheffield",2
+"196","James","IN",3,4,21,"Medical student","Hillswick, Shetland Islands",5
+"197","John","IN",3,4,22,"Law student","Wigan",6
+"198","Manisha","IN",3,4,27,"Nursery nurse","Leicester",9
+"199","Natasha",NA,3,4,36,"Midwife","Tamworth, Staffordshire",NA
+"200","Peter",NA,3,4,43,"Sales manager","Windsor, Berkshire",NA
+"201","Ryan","IN",3,4,38,"Photographer","Bristol",7
+"202","Sarah-Jane","IN",3,4,28,"Vicar's wife","Bewbush, West Sussex",4
+"203","Stuart","OUT",3,4,26,"PE teacher","Lichfield, Staffordshire",8
+"204","Victoria",NA,3,4,50,"CEO of the charity Plantlife","Somerset",NA
+"205","Brendan","IN",3,5,63,"Recruitment consultant","Sutton Coldfield",3
+"206","Cathryn","IN",3,5,27,"Shop assistant","Pease Pottage, West Sussex",1
+"207","Danny","IN",3,5,45,"Intensive care consultant","Sheffield",7
+"208","James","IN",3,5,21,"Medical student","Hillswick, Shetland Islands",6
+"209","John","IN",3,5,22,"Law student","Wigan",2
+"210","Manisha","OUT",3,5,27,"Nursery nurse","Leicester",5
+"211","Natasha",NA,3,5,36,"Midwife","Tamworth, Staffordshire",NA
+"212","Peter",NA,3,5,43,"Sales manager","Windsor, Berkshire",NA
+"213","Ryan","STAR BAKER",3,5,38,"Photographer","Bristol",8
+"214","Sarah-Jane","IN",3,5,28,"Vicar's wife","Bewbush, West Sussex",4
+"215","Stuart",NA,3,5,26,"PE teacher","Lichfield, Staffordshire",NA
+"216","Victoria",NA,3,5,50,"CEO of the charity Plantlife","Somerset",NA
+"217","Brendan","STAR BAKER",3,6,63,"Recruitment consultant","Sutton Coldfield",1
+"218","Cathryn","IN",3,6,27,"Shop assistant","Pease Pottage, West Sussex",3
+"219","Danny","IN",3,6,45,"Intensive care consultant","Sheffield",2
+"220","James","IN",3,6,21,"Medical student","Hillswick, Shetland Islands",7
+"221","John","IN",3,6,22,"Law student","Wigan",5
+"222","Manisha",NA,3,6,27,"Nursery nurse","Leicester",NA
+"223","Natasha",NA,3,6,36,"Midwife","Tamworth, Staffordshire",NA
+"224","Peter",NA,3,6,43,"Sales manager","Windsor, Berkshire",NA
+"225","Ryan","IN",3,6,38,"Photographer","Bristol",6
+"226","Sarah-Jane","IN",3,6,28,"Vicar's wife","Bewbush, West Sussex",4
+"227","Stuart",NA,3,6,26,"PE teacher","Lichfield, Staffordshire",NA
+"228","Victoria",NA,3,6,50,"CEO of the charity Plantlife","Somerset",NA
+"229","Brendan","IN",3,7,63,"Recruitment consultant","Sutton Coldfield",4
+"230","Cathryn","IN",3,7,27,"Shop assistant","Pease Pottage, West Sussex",5
+"231","Danny","STAR BAKER",3,7,45,"Intensive care consultant","Sheffield",2
+"232","James","IN",3,7,21,"Medical student","Hillswick, Shetland Islands",1
+"233","John","IN",3,7,22,"Law student","Wigan",3
+"234","Manisha",NA,3,7,27,"Nursery nurse","Leicester",NA
+"235","Natasha",NA,3,7,36,"Midwife","Tamworth, Staffordshire",NA
+"236","Peter",NA,3,7,43,"Sales manager","Windsor, Berkshire",NA
+"237","Ryan","OUT",3,7,38,"Photographer","Bristol",6
+"238","Sarah-Jane","OUT",3,7,28,"Vicar's wife","Bewbush, West Sussex",7
+"239","Stuart",NA,3,7,26,"PE teacher","Lichfield, Staffordshire",NA
+"240","Victoria",NA,3,7,50,"CEO of the charity Plantlife","Somerset",NA
+"241","Brendan","IN",3,8,63,"Recruitment consultant","Sutton Coldfield",2
+"242","Cathryn","OUT",3,8,27,"Shop assistant","Pease Pottage, West Sussex",5
+"243","Danny","IN",3,8,45,"Intensive care consultant","Sheffield",4
+"244","James","STAR BAKER",3,8,21,"Medical student","Hillswick, Shetland Islands",1
+"245","John","IN",3,8,22,"Law student","Wigan",3
+"246","Manisha",NA,3,8,27,"Nursery nurse","Leicester",NA
+"247","Natasha",NA,3,8,36,"Midwife","Tamworth, Staffordshire",NA
+"248","Peter",NA,3,8,43,"Sales manager","Windsor, Berkshire",NA
+"249","Ryan",NA,3,8,38,"Photographer","Bristol",NA
+"250","Sarah-Jane",NA,3,8,28,"Vicar's wife","Bewbush, West Sussex",NA
+"251","Stuart",NA,3,8,26,"PE teacher","Lichfield, Staffordshire",NA
+"252","Victoria",NA,3,8,50,"CEO of the charity Plantlife","Somerset",NA
+"253","Brendan","IN",3,9,63,"Recruitment consultant","Sutton Coldfield",3
+"254","Cathryn",NA,3,9,27,"Shop assistant","Pease Pottage, West Sussex",NA
+"255","Danny","OUT",3,9,45,"Intensive care consultant","Sheffield",4
+"256","James","STAR BAKER",3,9,21,"Medical student","Hillswick, Shetland Islands",1
+"257","John","IN",3,9,22,"Law student","Wigan",2
+"258","Manisha",NA,3,9,27,"Nursery nurse","Leicester",NA
+"259","Natasha",NA,3,9,36,"Midwife","Tamworth, Staffordshire",NA
+"260","Peter",NA,3,9,43,"Sales manager","Windsor, Berkshire",NA
+"261","Ryan",NA,3,9,38,"Photographer","Bristol",NA
+"262","Sarah-Jane",NA,3,9,28,"Vicar's wife","Bewbush, West Sussex",NA
+"263","Stuart",NA,3,9,26,"PE teacher","Lichfield, Staffordshire",NA
+"264","Victoria",NA,3,9,50,"CEO of the charity Plantlife","Somerset",NA
+"265","Brendan","Runner-up",3,10,63,"Recruitment consultant","Sutton Coldfield",2
+"266","Cathryn",NA,3,10,27,"Shop assistant","Pease Pottage, West Sussex",NA
+"267","Danny",NA,3,10,45,"Intensive care consultant","Sheffield",NA
+"268","James","Runner-up",3,10,21,"Medical student","Hillswick, Shetland Islands",1
+"269","John","WINNER",3,10,22,"Law student","Wigan",2
+"270","Manisha",NA,3,10,27,"Nursery nurse","Leicester",NA
+"271","Natasha",NA,3,10,36,"Midwife","Tamworth, Staffordshire",NA
+"272","Peter",NA,3,10,43,"Sales manager","Windsor, Berkshire",NA
+"273","Ryan",NA,3,10,38,"Photographer","Bristol",NA
+"274","Sarah-Jane",NA,3,10,28,"Vicar's wife","Bewbush, West Sussex",NA
+"275","Stuart",NA,3,10,26,"PE teacher","Lichfield, Staffordshire",NA
+"276","Victoria",NA,3,10,50,"CEO of the charity Plantlife","Somerset",NA
+"277","Ali","IN",4,1,25,"Charity worker","Saltley, Birmingham",11
+"278","Beca","IN",4,1,31,"Military Wives' Choir Singer","Aldershot, Hampshire",8
+"279","Christine","IN",4,1,66,"Director of an engraving company","Didcot, Oxfordshire",3
+"280","Deborah","IN",4,1,51,"Dentist","Peterborough",9
+"281","Frances","IN",4,1,31,"Children's Clothes Designer","Market Harborough, Leicestershire",7
+"282","Glenn","IN",4,1,37,"English Teacher","Teignmouth, Devon",4
+"283","Howard","IN",4,1,51,"Council Worker","Sheffield",6
+"284","Kimberley","IN",4,1,30,"Psychologist","London",10
+"285","Lucy","IN",4,1,38,"Horticulturist","Grimsby, Lincolnshire",2
+"286","Mark","IN",4,1,37,"Carpenter and Kitchen Fitter","Milton Keynes",5
+"287","Robert","STAR BAKER",4,1,54,"Space Satellite Designer","Melbourn, Cambridgeshire",1
+"288","Ruby","IN",4,1,20,"History of Art and Philosophy Student","Southend, Essex",12
+"289","Toby","OUT",4,1,30,"Web Programmer","Reading, Berkshire",13
+"290","Ali","IN",4,2,25,"Charity worker","Saltley, Birmingham",9
+"291","Beca","IN",4,2,31,"Military Wives' Choir Singer","Aldershot, Hampshire",11
+"292","Christine","IN",4,2,66,"Director of an engraving company","Didcot, Oxfordshire",4
+"293","Deborah","IN",4,2,51,"Dentist","Peterborough",8
+"294","Frances","IN",4,2,31,"Children's Clothes Designer","Market Harborough, Leicestershire",2
+"295","Glenn","IN",4,2,37,"English Teacher","Teignmouth, Devon",7
+"296","Howard","IN",4,2,51,"Council Worker","Sheffield",10
+"297","Kimberley","IN",4,2,30,"Psychologist","London",1
+"298","Lucy","OUT",4,2,38,"Horticulturist","Grimsby, Lincolnshire",12
+"299","Mark","IN",4,2,37,"Carpenter and Kitchen Fitter","Milton Keynes",6
+"300","Robert","IN",4,2,54,"Space Satellite Designer","Melbourn, Cambridgeshire",5
+"301","Ruby","STAR BAKER",4,2,20,"History of Art and Philosophy Student","Southend, Essex",3
+"302","Toby",NA,4,2,30,"Web Programmer","Reading, Berkshire",NA
+"303","Ali","IN",4,3,25,"Charity worker","Saltley, Birmingham",5
+"304","Beca","IN",4,3,31,"Military Wives' Choir Singer","Aldershot, Hampshire",10
+"305","Christine","STAR BAKER",4,3,66,"Director of an engraving company","Didcot, Oxfordshire",4
+"306","Deborah","OUT",4,3,51,"Dentist","Peterborough",9
+"307","Frances","IN",4,3,31,"Children's Clothes Designer","Market Harborough, Leicestershire",8
+"308","Glenn","IN",4,3,37,"English Teacher","Teignmouth, Devon",1
+"309","Howard","IN",4,3,51,"Council Worker","Sheffield",7
+"310","Kimberley","IN",4,3,30,"Psychologist","London",6
+"311","Lucy",NA,4,3,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"312","Mark","OUT",4,3,37,"Carpenter and Kitchen Fitter","Milton Keynes",11
+"313","Robert","IN",4,3,54,"Space Satellite Designer","Melbourn, Cambridgeshire",2
+"314","Ruby","IN",4,3,20,"History of Art and Philosophy Student","Southend, Essex",3
+"315","Toby",NA,4,3,30,"Web Programmer","Reading, Berkshire",NA
+"316","Ali","OUT",4,4,25,"Charity worker","Saltley, Birmingham",8
+"317","Beca","IN",4,4,31,"Military Wives' Choir Singer","Aldershot, Hampshire",2
+"318","Christine","IN",4,4,66,"Director of an engraving company","Didcot, Oxfordshire",7
+"319","Deborah",NA,4,4,51,"Dentist","Peterborough",NA
+"320","Frances","IN",4,4,31,"Children's Clothes Designer","Market Harborough, Leicestershire",1
+"321","Glenn","IN",4,4,37,"English Teacher","Teignmouth, Devon",9
+"322","Howard","IN",4,4,51,"Council Worker","Sheffield",5
+"323","Kimberley","STAR BAKER",4,4,30,"Psychologist","London",4
+"324","Lucy",NA,4,4,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"325","Mark",NA,4,4,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"326","Robert","IN",4,4,54,"Space Satellite Designer","Melbourn, Cambridgeshire",3
+"327","Ruby","IN",4,4,20,"History of Art and Philosophy Student","Southend, Essex",6
+"328","Toby",NA,4,4,30,"Web Programmer","Reading, Berkshire",NA
+"329","Ali",NA,4,5,25,"Charity worker","Saltley, Birmingham",NA
+"330","Beca","IN",4,5,31,"Military Wives' Choir Singer","Aldershot, Hampshire",5
+"331","Christine","STAR BAKER",4,5,66,"Director of an engraving company","Didcot, Oxfordshire",1
+"332","Deborah",NA,4,5,51,"Dentist","Peterborough",NA
+"333","Frances","IN",4,5,31,"Children's Clothes Designer","Market Harborough, Leicestershire",3
+"334","Glenn","IN",4,5,37,"English Teacher","Teignmouth, Devon",2
+"335","Howard","IN",4,5,51,"Council Worker","Sheffield",8
+"336","Kimberley","IN",4,5,30,"Psychologist","London",7
+"337","Lucy",NA,4,5,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"338","Mark",NA,4,5,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"339","Robert","OUT",4,5,54,"Space Satellite Designer","Melbourn, Cambridgeshire",4
+"340","Ruby","IN",4,5,20,"History of Art and Philosophy Student","Southend, Essex",6
+"341","Toby",NA,4,5,30,"Web Programmer","Reading, Berkshire",NA
+"342","Ali",NA,4,6,25,"Charity worker","Saltley, Birmingham",NA
+"343","Beca","IN",4,6,31,"Military Wives' Choir Singer","Aldershot, Hampshire",6
+"344","Christine","IN",4,6,66,"Director of an engraving company","Didcot, Oxfordshire",4
+"345","Deborah",NA,4,6,51,"Dentist","Peterborough",NA
+"346","Frances","IN",4,6,31,"Children's Clothes Designer","Market Harborough, Leicestershire",2
+"347","Glenn","IN",4,6,37,"English Teacher","Teignmouth, Devon",5
+"348","Howard","OUT",4,6,51,"Council Worker","Sheffield",7
+"349","Kimberley","IN",4,6,30,"Psychologist","London",3
+"350","Lucy",NA,4,6,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"351","Mark",NA,4,6,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"352","Robert",NA,4,6,54,"Space Satellite Designer","Melbourn, Cambridgeshire",NA
+"353","Ruby","STAR BAKER",4,6,20,"History of Art and Philosophy Student","Southend, Essex",1
+"354","Toby",NA,4,6,30,"Web Programmer","Reading, Berkshire",NA
+"355","Ali",NA,4,7,25,"Charity worker","Saltley, Birmingham",NA
+"356","Beca","IN",4,7,31,"Military Wives' Choir Singer","Aldershot, Hampshire",1
+"357","Christine","IN",4,7,66,"Director of an engraving company","Didcot, Oxfordshire",6
+"358","Deborah",NA,4,7,51,"Dentist","Peterborough",NA
+"359","Frances","STAR BAKER",4,7,31,"Children's Clothes Designer","Market Harborough, Leicestershire",5
+"360","Glenn","OUT",4,7,37,"English Teacher","Teignmouth, Devon",3
+"361","Howard",NA,4,7,51,"Council Worker","Sheffield",NA
+"362","Kimberley","IN",4,7,30,"Psychologist","London",4
+"363","Lucy",NA,4,7,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"364","Mark",NA,4,7,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"365","Robert",NA,4,7,54,"Space Satellite Designer","Melbourn, Cambridgeshire",NA
+"366","Ruby","IN",4,7,20,"History of Art and Philosophy Student","Southend, Essex",2
+"367","Toby",NA,4,7,30,"Web Programmer","Reading, Berkshire",NA
+"368","Ali",NA,4,8,25,"Charity worker","Saltley, Birmingham",NA
+"369","Beca","IN",4,8,31,"Military Wives' Choir Singer","Aldershot, Hampshire",4
+"370","Christine","OUT",4,8,66,"Director of an engraving company","Didcot, Oxfordshire",5
+"371","Deborah",NA,4,8,51,"Dentist","Peterborough",NA
+"372","Frances","IN",4,8,31,"Children's Clothes Designer","Market Harborough, Leicestershire",3
+"373","Glenn",NA,4,8,37,"English Teacher","Teignmouth, Devon",NA
+"374","Howard",NA,4,8,51,"Council Worker","Sheffield",NA
+"375","Kimberley","IN",4,8,30,"Psychologist","London",2
+"376","Lucy",NA,4,8,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"377","Mark",NA,4,8,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"378","Robert",NA,4,8,54,"Space Satellite Designer","Melbourn, Cambridgeshire",NA
+"379","Ruby","STAR BAKER",4,8,20,"History of Art and Philosophy Student","Southend, Essex",1
+"380","Toby",NA,4,8,30,"Web Programmer","Reading, Berkshire",NA
+"381","Ali",NA,4,9,25,"Charity worker","Saltley, Birmingham",NA
+"382","Beca","OUT",4,9,31,"Military Wives' Choir Singer","Aldershot, Hampshire",3
+"383","Christine",NA,4,9,66,"Director of an engraving company","Didcot, Oxfordshire",NA
+"384","Deborah",NA,4,9,51,"Dentist","Peterborough",NA
+"385","Frances","IN",4,9,31,"Children's Clothes Designer","Market Harborough, Leicestershire",2
+"386","Glenn",NA,4,9,37,"English Teacher","Teignmouth, Devon",NA
+"387","Howard",NA,4,9,51,"Council Worker","Sheffield",NA
+"388","Kimberley","STAR BAKER",4,9,30,"Psychologist","London",1
+"389","Lucy",NA,4,9,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"390","Mark",NA,4,9,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"391","Robert",NA,4,9,54,"Space Satellite Designer","Melbourn, Cambridgeshire",NA
+"392","Ruby","IN",4,9,20,"History of Art and Philosophy Student","Southend, Essex",4
+"393","Toby",NA,4,9,30,"Web Programmer","Reading, Berkshire",NA
+"394","Ali",NA,4,10,25,"Charity worker","Saltley, Birmingham",NA
+"395","Beca",NA,4,10,31,"Military Wives' Choir Singer","Aldershot, Hampshire",NA
+"396","Christine",NA,4,10,66,"Director of an engraving company","Didcot, Oxfordshire",NA
+"397","Deborah",NA,4,10,51,"Dentist","Peterborough",NA
+"398","Frances","WINNER",4,10,31,"Children's Clothes Designer","Market Harborough, Leicestershire",3
+"399","Glenn",NA,4,10,37,"English Teacher","Teignmouth, Devon",NA
+"400","Howard",NA,4,10,51,"Council Worker","Sheffield",NA
+"401","Kimberley","Runner-up",4,10,30,"Psychologist","London",1
+"402","Lucy",NA,4,10,38,"Horticulturist","Grimsby, Lincolnshire",NA
+"403","Mark",NA,4,10,37,"Carpenter and Kitchen Fitter","Milton Keynes",NA
+"404","Robert",NA,4,10,54,"Space Satellite Designer","Melbourn, Cambridgeshire",NA
+"405","Ruby","Runner-up",4,10,20,"History of Art and Philosophy Student","Southend, Essex",2
+"406","Toby",NA,4,10,30,"Web Programmer","Reading, Berkshire",NA
+"407","Chetna","IN",5,1,35,"Fashion Designer","Broadstairs, Kent",3
+"408","Claire","OUT",5,1,31,"Speech Therapist","Ashton upon Mersey, Trafford",8
+"409","Diana","IN",5,1,69,"Women's Institute (WI) Judge","Alkington, Shropshire",5
+"410","Enwezor","IN",5,1,39,"Business Consultant","Portsmouth, Hampshire",9
+"411","Iain","IN",5,1,31,"Construction Engineer","London/Belfast",4
+"412","Jordan","IN",5,1,32,"IT Manager","Sneinton, Nottingham",12
+"413","Kate","IN",5,1,41,"Furniture Restorer","Brighton, East Sussex",6
+"414","Luis","IN",5,1,42,"Graphic Designer","Poynton, Cheshire",7
+"415","Martha","IN",5,1,17,"Student","Ascot, Berkshire",2
+"416","Nancy","STAR BAKER",5,1,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",1
+"417","Norman","IN",5,1,66,"Retired Naval Officer","Portknockie, Moray",11
+"418","Richard","IN",5,1,38,"Builder","Mill Hill, London",10
+"419","Chetna","IN",5,2,35,"Fashion Designer","Broadstairs, Kent",8
+"420","Claire",NA,5,2,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"421","Diana","IN",5,2,69,"Women's Institute (WI) Judge","Alkington, Shropshire",7
+"422","Enwezor","OUT",5,2,39,"Business Consultant","Portsmouth, Hampshire",9
+"423","Iain","IN",5,2,31,"Construction Engineer","London/Belfast",11
+"424","Jordan","IN",5,2,32,"IT Manager","Sneinton, Nottingham",6
+"425","Kate","IN",5,2,41,"Furniture Restorer","Brighton, East Sussex",4
+"426","Luis","IN",5,2,42,"Graphic Designer","Poynton, Cheshire",3
+"427","Martha","IN",5,2,17,"Student","Ascot, Berkshire",5
+"428","Nancy","IN",5,2,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",2
+"429","Norman","IN",5,2,66,"Retired Naval Officer","Portknockie, Moray",10
+"430","Richard","STAR BAKER",5,2,38,"Builder","Mill Hill, London",1
+"431","Chetna","IN",5,3,35,"Fashion Designer","Broadstairs, Kent",8
+"432","Claire",NA,5,3,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"433","Diana","IN",5,3,69,"Women's Institute (WI) Judge","Alkington, Shropshire",7
+"434","Enwezor",NA,5,3,39,"Business Consultant","Portsmouth, Hampshire",NA
+"435","Iain","IN",5,3,31,"Construction Engineer","London/Belfast",9
+"436","Jordan","OUT",5,3,32,"IT Manager","Sneinton, Nottingham",10
+"437","Kate","IN",5,3,41,"Furniture Restorer","Brighton, East Sussex",1
+"438","Luis","STAR BAKER",5,3,42,"Graphic Designer","Poynton, Cheshire",2
+"439","Martha","IN",5,3,17,"Student","Ascot, Berkshire",3
+"440","Nancy","IN",5,3,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",5
+"441","Norman","IN",5,3,66,"Retired Naval Officer","Portknockie, Moray",4
+"442","Richard","IN",5,3,38,"Builder","Mill Hill, London",6
+"443","Chetna","IN",5,4,35,"Fashion Designer","Broadstairs, Kent",3
+"444","Claire",NA,5,4,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"445","Diana","IN",5,4,69,"Women's Institute (WI) Judge","Alkington, Shropshire",9
+"446","Enwezor",NA,5,4,39,"Business Consultant","Portsmouth, Hampshire",NA
+"447","Iain","OUT",5,4,31,"Construction Engineer","London/Belfast",6
+"448","Jordan",NA,5,4,32,"IT Manager","Sneinton, Nottingham",NA
+"449","Kate","IN",5,4,41,"Furniture Restorer","Brighton, East Sussex",7
+"450","Luis","IN",5,4,42,"Graphic Designer","Poynton, Cheshire",2
+"451","Martha","IN",5,4,17,"Student","Ascot, Berkshire",1
+"452","Nancy","IN",5,4,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",4
+"453","Norman","IN",5,4,66,"Retired Naval Officer","Portknockie, Moray",8
+"454","Richard","STAR BAKER",5,4,38,"Builder","Mill Hill, London",5
+"455","Chetna","IN",5,5,35,"Fashion Designer","Broadstairs, Kent",2
+"456","Claire",NA,5,5,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"457","Diana","WD",5,5,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"458","Enwezor",NA,5,5,39,"Business Consultant","Portsmouth, Hampshire",NA
+"459","Iain",NA,5,5,31,"Construction Engineer","London/Belfast",NA
+"460","Jordan",NA,5,5,32,"IT Manager","Sneinton, Nottingham",NA
+"461","Kate","STAR BAKER",5,5,41,"Furniture Restorer","Brighton, East Sussex",3
+"462","Luis","IN",5,5,42,"Graphic Designer","Poynton, Cheshire",6
+"463","Martha","IN",5,5,17,"Student","Ascot, Berkshire",1
+"464","Nancy","IN",5,5,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",4
+"465","Norman","OUT",5,5,66,"Retired Naval Officer","Portknockie, Moray",5
+"466","Richard","IN",5,5,38,"Builder","Mill Hill, London",7
+"467","Chetna","STAR BAKER",5,6,35,"Fashion Designer","Broadstairs, Kent",2
+"468","Claire",NA,5,6,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"469","Diana","IN",5,6,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"470","Enwezor",NA,5,6,39,"Business Consultant","Portsmouth, Hampshire",NA
+"471","Iain",NA,5,6,31,"Construction Engineer","London/Belfast",NA
+"472","Jordan",NA,5,6,32,"IT Manager","Sneinton, Nottingham",NA
+"473","Kate","IN",5,6,41,"Furniture Restorer","Brighton, East Sussex",6
+"474","Luis","IN",5,6,42,"Graphic Designer","Poynton, Cheshire",3
+"475","Martha","IN",5,6,17,"Student","Ascot, Berkshire",4
+"476","Nancy","IN",5,6,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",1
+"477","Norman",NA,5,6,66,"Retired Naval Officer","Portknockie, Moray",NA
+"478","Richard","IN",5,6,38,"Builder","Mill Hill, London",5
+"479","Chetna","IN",5,7,35,"Fashion Designer","Broadstairs, Kent",6
+"480","Claire",NA,5,7,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"481","Diana","IN",5,7,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"482","Enwezor",NA,5,7,39,"Business Consultant","Portsmouth, Hampshire",NA
+"483","Iain",NA,5,7,31,"Construction Engineer","London/Belfast",NA
+"484","Jordan",NA,5,7,32,"IT Manager","Sneinton, Nottingham",NA
+"485","Kate","OUT",5,7,41,"Furniture Restorer","Brighton, East Sussex",4
+"486","Luis","IN",5,7,42,"Graphic Designer","Poynton, Cheshire",5
+"487","Martha","IN",5,7,17,"Student","Ascot, Berkshire",3
+"488","Nancy","IN",5,7,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",2
+"489","Norman",NA,5,7,66,"Retired Naval Officer","Portknockie, Moray",NA
+"490","Richard","STAR BAKER",5,7,38,"Builder","Mill Hill, London",1
+"491","Chetna","IN",5,8,35,"Fashion Designer","Broadstairs, Kent",1
+"492","Claire",NA,5,8,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"493","Diana","IN",5,8,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"494","Enwezor",NA,5,8,39,"Business Consultant","Portsmouth, Hampshire",NA
+"495","Iain",NA,5,8,31,"Construction Engineer","London/Belfast",NA
+"496","Jordan",NA,5,8,32,"IT Manager","Sneinton, Nottingham",NA
+"497","Kate",NA,5,8,41,"Furniture Restorer","Brighton, East Sussex",NA
+"498","Luis","IN",5,8,42,"Graphic Designer","Poynton, Cheshire",2
+"499","Martha","OUT",5,8,17,"Student","Ascot, Berkshire",5
+"500","Nancy","IN",5,8,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",3
+"501","Norman",NA,5,8,66,"Retired Naval Officer","Portknockie, Moray",NA
+"502","Richard","STAR BAKER",5,8,38,"Builder","Mill Hill, London",4
+"503","Chetna","OUT",5,9,35,"Fashion Designer","Broadstairs, Kent",4
+"504","Claire",NA,5,9,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"505","Diana","IN",5,9,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"506","Enwezor",NA,5,9,39,"Business Consultant","Portsmouth, Hampshire",NA
+"507","Iain",NA,5,9,31,"Construction Engineer","London/Belfast",NA
+"508","Jordan",NA,5,9,32,"IT Manager","Sneinton, Nottingham",NA
+"509","Kate",NA,5,9,41,"Furniture Restorer","Brighton, East Sussex",NA
+"510","Luis","IN",5,9,42,"Graphic Designer","Poynton, Cheshire",1
+"511","Martha",NA,5,9,17,"Student","Ascot, Berkshire",NA
+"512","Nancy","IN",5,9,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",3
+"513","Norman",NA,5,9,66,"Retired Naval Officer","Portknockie, Moray",NA
+"514","Richard","STAR BAKER",5,9,38,"Builder","Mill Hill, London",2
+"515","Chetna",NA,5,10,35,"Fashion Designer","Broadstairs, Kent",NA
+"516","Claire",NA,5,10,31,"Speech Therapist","Ashton upon Mersey, Trafford",NA
+"517","Diana","IN",5,10,69,"Women's Institute (WI) Judge","Alkington, Shropshire",NA
+"518","Enwezor",NA,5,10,39,"Business Consultant","Portsmouth, Hampshire",NA
+"519","Iain",NA,5,10,31,"Construction Engineer","London/Belfast",NA
+"520","Jordan",NA,5,10,32,"IT Manager","Sneinton, Nottingham",NA
+"521","Kate",NA,5,10,41,"Furniture Restorer","Brighton, East Sussex",NA
+"522","Luis","Runner-up",5,10,42,"Graphic Designer","Poynton, Cheshire",2
+"523","Martha",NA,5,10,17,"Student","Ascot, Berkshire",NA
+"524","Nancy","WINNER",5,10,60,"Retired Practice Manager","Barton-upon-Humber, Lincolnshire",1
+"525","Norman",NA,5,10,66,"Retired Naval Officer","Portknockie, Moray",NA
+"526","Richard","Runner-up",5,10,38,"Builder","Mill Hill, London",3
+"527","Alvin","IN",6,1,37,"Nurse","Bracknell, Berkshire",2
+"528","Dorret","IN",6,1,53,"Accountant","Penwortham, Lancashire",5
+"529","Flora","IN",6,1,19,"Art gallery assistant","Dunkeld, Perth and Kinross",6
+"530","Ian","IN",6,1,41,"Travel photographer","Great Wilbraham, Cambridgeshire",8
+"531","Marie","STAR BAKER",6,1,66,"Retired","Auchterarder, Perthshire",3
+"532","Mat","IN",6,1,37,"Fire fighter","London",7
+"533","Nadiya","IN",6,1,30,"Full-time mother","Leeds / Luton",12
+"534","Paul","IN",6,1,49,"Prison governor","Swansea, Wales",10
+"535","Sandy","IN",6,1,49,"Child welfare officer","Yeadon, West Yorkshire",9
+"536","Stu","OUT",6,1,35,"Professional musician","Guildford, Surrey",11
+"537","Tamal","IN",6,1,29,"Trainee anaesthetist","Manchester",4
+"538","Ugnė","IN",6,1,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",1
+"539","Alvin","IN",6,2,37,"Nurse","Bracknell, Berkshire",6
+"540","Dorret","IN",6,2,53,"Accountant","Penwortham, Lancashire",1
+"541","Flora","IN",6,2,19,"Art gallery assistant","Dunkeld, Perth and Kinross",2
+"542","Ian","STAR BAKER",6,2,41,"Travel photographer","Great Wilbraham, Cambridgeshire",3
+"543","Marie","OUT",6,2,66,"Retired","Auchterarder, Perthshire",11
+"544","Mat","IN",6,2,37,"Fire fighter","London",5
+"545","Nadiya","IN",6,2,30,"Full-time mother","Leeds / Luton",9
+"546","Paul","IN",6,2,49,"Prison governor","Swansea, Wales",10
+"547","Sandy","IN",6,2,49,"Child welfare officer","Yeadon, West Yorkshire",4
+"548","Stu",NA,6,2,35,"Professional musician","Guildford, Surrey",NA
+"549","Tamal","IN",6,2,29,"Trainee anaesthetist","Manchester",8
+"550","Ugnė","IN",6,2,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",7
+"551","Alvin","IN",6,3,37,"Nurse","Bracknell, Berkshire",4
+"552","Dorret","OUT",6,3,53,"Accountant","Penwortham, Lancashire",6
+"553","Flora","IN",6,3,19,"Art gallery assistant","Dunkeld, Perth and Kinross",2
+"554","Ian","STAR BAKER",6,3,41,"Travel photographer","Great Wilbraham, Cambridgeshire",1
+"555","Marie",NA,6,3,66,"Retired","Auchterarder, Perthshire",NA
+"556","Mat","IN",6,3,37,"Fire fighter","London",8
+"557","Nadiya","IN",6,3,30,"Full-time mother","Leeds / Luton",9
+"558","Paul","IN",6,3,49,"Prison governor","Swansea, Wales",10
+"559","Sandy","IN",6,3,49,"Child welfare officer","Yeadon, West Yorkshire",7
+"560","Stu",NA,6,3,35,"Professional musician","Guildford, Surrey",NA
+"561","Tamal","IN",6,3,29,"Trainee anaesthetist","Manchester",3
+"562","Ugnė","IN",6,3,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",5
+"563","Alvin","IN",6,4,37,"Nurse","Bracknell, Berkshire",9
+"564","Dorret",NA,6,4,53,"Accountant","Penwortham, Lancashire",NA
+"565","Flora","IN",6,4,19,"Art gallery assistant","Dunkeld, Perth and Kinross",3
+"566","Ian","STAR BAKER",6,4,41,"Travel photographer","Great Wilbraham, Cambridgeshire",4
+"567","Marie",NA,6,4,66,"Retired","Auchterarder, Perthshire",NA
+"568","Mat","IN",6,4,37,"Fire fighter","London",7
+"569","Nadiya","IN",6,4,30,"Full-time mother","Leeds / Luton",8
+"570","Paul","IN",6,4,49,"Prison governor","Swansea, Wales",1
+"571","Sandy","OUT",6,4,49,"Child welfare officer","Yeadon, West Yorkshire",6
+"572","Stu",NA,6,4,35,"Professional musician","Guildford, Surrey",NA
+"573","Tamal","IN",6,4,29,"Trainee anaesthetist","Manchester",5
+"574","Ugnė","IN",6,4,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",2
+"575","Alvin","IN",6,5,37,"Nurse","Bracknell, Berkshire",8
+"576","Dorret",NA,6,5,53,"Accountant","Penwortham, Lancashire",NA
+"577","Flora","IN",6,5,19,"Art gallery assistant","Dunkeld, Perth and Kinross",3
+"578","Ian","IN",6,5,41,"Travel photographer","Great Wilbraham, Cambridgeshire",5
+"579","Marie",NA,6,5,66,"Retired","Auchterarder, Perthshire",NA
+"580","Mat","IN",6,5,37,"Fire fighter","London",4
+"581","Nadiya","STAR BAKER",6,5,30,"Full-time mother","Leeds / Luton",1
+"582","Paul","IN",6,5,49,"Prison governor","Swansea, Wales",2
+"583","Sandy",NA,6,5,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"584","Stu",NA,6,5,35,"Professional musician","Guildford, Surrey",NA
+"585","Tamal","IN",6,5,29,"Trainee anaesthetist","Manchester",7
+"586","Ugnė","OUT",6,5,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",6
+"587","Alvin","OUT",6,6,37,"Nurse","Bracknell, Berkshire",6
+"588","Dorret",NA,6,6,53,"Accountant","Penwortham, Lancashire",NA
+"589","Flora","IN",6,6,19,"Art gallery assistant","Dunkeld, Perth and Kinross",2
+"590","Ian","IN",6,6,41,"Travel photographer","Great Wilbraham, Cambridgeshire",3
+"591","Marie",NA,6,6,66,"Retired","Auchterarder, Perthshire",NA
+"592","Mat","STAR BAKER",6,6,37,"Fire fighter","London",1
+"593","Nadiya","IN",6,6,30,"Full-time mother","Leeds / Luton",4
+"594","Paul","IN",6,6,49,"Prison governor","Swansea, Wales",5
+"595","Sandy",NA,6,6,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"596","Stu",NA,6,6,35,"Professional musician","Guildford, Surrey",NA
+"597","Tamal","IN",6,6,29,"Trainee anaesthetist","Manchester",7
+"598","Ugnė",NA,6,6,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",NA
+"599","Alvin",NA,6,7,37,"Nurse","Bracknell, Berkshire",NA
+"600","Dorret",NA,6,7,53,"Accountant","Penwortham, Lancashire",NA
+"601","Flora","IN",6,7,19,"Art gallery assistant","Dunkeld, Perth and Kinross",4
+"602","Ian","IN",6,7,41,"Travel photographer","Great Wilbraham, Cambridgeshire",5
+"603","Marie",NA,6,7,66,"Retired","Auchterarder, Perthshire",NA
+"604","Mat","OUT",6,7,37,"Fire fighter","London",6
+"605","Nadiya","IN",6,7,30,"Full-time mother","Leeds / Luton",1
+"606","Paul","IN",6,7,49,"Prison governor","Swansea, Wales",2
+"607","Sandy",NA,6,7,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"608","Stu",NA,6,7,35,"Professional musician","Guildford, Surrey",NA
+"609","Tamal","STAR BAKER",6,7,29,"Trainee anaesthetist","Manchester",3
+"610","Ugnė",NA,6,7,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",NA
+"611","Alvin",NA,6,8,37,"Nurse","Bracknell, Berkshire",NA
+"612","Dorret",NA,6,8,53,"Accountant","Penwortham, Lancashire",NA
+"613","Flora","IN",6,8,19,"Art gallery assistant","Dunkeld, Perth and Kinross",3
+"614","Ian","IN",6,8,41,"Travel photographer","Great Wilbraham, Cambridgeshire",2
+"615","Marie",NA,6,8,66,"Retired","Auchterarder, Perthshire",NA
+"616","Mat",NA,6,8,37,"Fire fighter","London",NA
+"617","Nadiya","STAR BAKER",6,8,30,"Full-time mother","Leeds / Luton",1
+"618","Paul","OUT",6,8,49,"Prison governor","Swansea, Wales",5
+"619","Sandy",NA,6,8,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"620","Stu",NA,6,8,35,"Professional musician","Guildford, Surrey",NA
+"621","Tamal","IN",6,8,29,"Trainee anaesthetist","Manchester",4
+"622","Ugnė",NA,6,8,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",NA
+"623","Alvin",NA,6,9,37,"Nurse","Bracknell, Berkshire",NA
+"624","Dorret",NA,6,9,53,"Accountant","Penwortham, Lancashire",NA
+"625","Flora","OUT",6,9,19,"Art gallery assistant","Dunkeld, Perth and Kinross",1
+"626","Ian","IN",6,9,41,"Travel photographer","Great Wilbraham, Cambridgeshire",3
+"627","Marie",NA,6,9,66,"Retired","Auchterarder, Perthshire",NA
+"628","Mat",NA,6,9,37,"Fire fighter","London",NA
+"629","Nadiya","STAR BAKER",6,9,30,"Full-time mother","Leeds / Luton",4
+"630","Paul",NA,6,9,49,"Prison governor","Swansea, Wales",NA
+"631","Sandy",NA,6,9,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"632","Stu",NA,6,9,35,"Professional musician","Guildford, Surrey",NA
+"633","Tamal","IN",6,9,29,"Trainee anaesthetist","Manchester",2
+"634","Ugnė",NA,6,9,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",NA
+"635","Alvin",NA,6,10,37,"Nurse","Bracknell, Berkshire",NA
+"636","Dorret",NA,6,10,53,"Accountant","Penwortham, Lancashire",NA
+"637","Flora",NA,6,10,19,"Art gallery assistant","Dunkeld, Perth and Kinross",NA
+"638","Ian","Runner-up",6,10,41,"Travel photographer","Great Wilbraham, Cambridgeshire",2
+"639","Marie",NA,6,10,66,"Retired","Auchterarder, Perthshire",NA
+"640","Mat",NA,6,10,37,"Fire fighter","London",NA
+"641","Nadiya","WINNER",6,10,30,"Full-time mother","Leeds / Luton",1
+"642","Paul",NA,6,10,49,"Prison governor","Swansea, Wales",NA
+"643","Sandy",NA,6,10,49,"Child welfare officer","Yeadon, West Yorkshire",NA
+"644","Stu",NA,6,10,35,"Professional musician","Guildford, Surrey",NA
+"645","Tamal","Runner-up",6,10,29,"Trainee anaesthetist","Manchester",3
+"646","Ugnė",NA,6,10,32,"PA and administrator","Woodford, London / Vilkaviškis, Lithuania",NA
+"647","Andrew","IN",7,1,25,"Aerospace engineer","Derby / Holywood, County Down",12
+"648","Benjamina","IN",7,1,23,"Teaching assistant","South London",6
+"649","Candice","IN",7,1,31,"PE teacher","Barton-Le-Clay, Bedfordshire",5
+"650","Jane","STAR BAKER",7,1,61,"Garden designer","Beckenham",7
+"651","Kate","IN",7,1,37,"Nurse","Brooke, Norfolk",4
+"652","Lee","OUT",7,1,67,"Pastor","Bolton",11
+"653","Louise","IN",7,1,46,"Hairdresser","Cardiff",9
+"654","Michael","IN",7,1,20,"Student","Durham",3
+"655","Rav","IN",7,1,28,"Student support","Erith",8
+"656","Selasi","IN",7,1,30,"Client service associate","London",1
+"657","Tom","IN",7,1,26,"Project engagement manager","Rochdale",2
+"658","Val","IN",7,1,66,"Semi-retired, Substitute teacher","Yeovil",10
+"659","Andrew","IN",7,2,25,"Aerospace engineer","Derby / Holywood, County Down",4
+"660","Benjamina","IN",7,2,23,"Teaching assistant","South London",3
+"661","Candice","STAR BAKER",7,2,31,"PE teacher","Barton-Le-Clay, Bedfordshire",8
+"662","Jane","IN",7,2,61,"Garden designer","Beckenham",2
+"663","Kate","IN",7,2,37,"Nurse","Brooke, Norfolk",1
+"664","Lee",NA,7,2,67,"Pastor","Bolton",NA
+"665","Louise","OUT",7,2,46,"Hairdresser","Cardiff",10
+"666","Michael","IN",7,2,20,"Student","Durham",9
+"667","Rav","IN",7,2,28,"Student support","Erith",6
+"668","Selasi","IN",7,2,30,"Client service associate","London",11
+"669","Tom","IN",7,2,26,"Project engagement manager","Rochdale",7
+"670","Val","IN",7,2,66,"Semi-retired, Substitute teacher","Yeovil",5
+"671","Andrew","IN",7,3,25,"Aerospace engineer","Derby / Holywood, County Down",2
+"672","Benjamina","IN",7,3,23,"Teaching assistant","South London",6
+"673","Candice","IN",7,3,31,"PE teacher","Barton-Le-Clay, Bedfordshire",3
+"674","Jane","IN",7,3,61,"Garden designer","Beckenham",9
+"675","Kate","IN",7,3,37,"Nurse","Brooke, Norfolk",8
+"676","Lee",NA,7,3,67,"Pastor","Bolton",NA
+"677","Louise",NA,7,3,46,"Hairdresser","Cardiff",NA
+"678","Michael","OUT",7,3,20,"Student","Durham",7
+"679","Rav","IN",7,3,28,"Student support","Erith",10
+"680","Selasi","IN",7,3,30,"Client service associate","London",5
+"681","Tom","STAR BAKER",7,3,26,"Project engagement manager","Rochdale",4
+"682","Val","IN",7,3,66,"Semi-retired, Substitute teacher","Yeovil",1
+"683","Andrew","IN",7,4,25,"Aerospace engineer","Derby / Holywood, County Down",4
+"684","Benjamina","STAR BAKER",7,4,23,"Teaching assistant","South London",1
+"685","Candice","IN",7,4,31,"PE teacher","Barton-Le-Clay, Bedfordshire",2
+"686","Jane","IN",7,4,61,"Garden designer","Beckenham",3
+"687","Kate","OUT",7,4,37,"Nurse","Brooke, Norfolk",7
+"688","Lee",NA,7,4,67,"Pastor","Bolton",NA
+"689","Louise",NA,7,4,46,"Hairdresser","Cardiff",NA
+"690","Michael",NA,7,4,20,"Student","Durham",NA
+"691","Rav","IN",7,4,28,"Student support","Erith",9
+"692","Selasi","IN",7,4,30,"Client service associate","London",8
+"693","Tom","IN",7,4,26,"Project engagement manager","Rochdale",5
+"694","Val","IN",7,4,66,"Semi-retired, Substitute teacher","Yeovil",6
+"695","Andrew","IN",7,5,25,"Aerospace engineer","Derby / Holywood, County Down",6
+"696","Benjamina","IN",7,5,23,"Teaching assistant","South London",5
+"697","Candice","STAR BAKER",7,5,31,"PE teacher","Barton-Le-Clay, Bedfordshire",2
+"698","Jane","IN",7,5,61,"Garden designer","Beckenham",1
+"699","Kate",NA,7,5,37,"Nurse","Brooke, Norfolk",NA
+"700","Lee",NA,7,5,67,"Pastor","Bolton",NA
+"701","Louise",NA,7,5,46,"Hairdresser","Cardiff",NA
+"702","Michael",NA,7,5,20,"Student","Durham",NA
+"703","Rav","IN",7,5,28,"Student support","Erith",8
+"704","Selasi","IN",7,5,30,"Client service associate","London",3
+"705","Tom","IN",7,5,26,"Project engagement manager","Rochdale",4
+"706","Val","OUT",7,5,66,"Semi-retired, Substitute teacher","Yeovil",7
+"707","Andrew","IN",7,6,25,"Aerospace engineer","Derby / Holywood, County Down",6
+"708","Benjamina","IN",7,6,23,"Teaching assistant","South London",2
+"709","Candice","IN",7,6,31,"PE teacher","Barton-Le-Clay, Bedfordshire",5
+"710","Jane","IN",7,6,61,"Garden designer","Beckenham",4
+"711","Kate",NA,7,6,37,"Nurse","Brooke, Norfolk",NA
+"712","Lee",NA,7,6,67,"Pastor","Bolton",NA
+"713","Louise",NA,7,6,46,"Hairdresser","Cardiff",NA
+"714","Michael",NA,7,6,20,"Student","Durham",NA
+"715","Rav","OUT",7,6,28,"Student support","Erith",3
+"716","Selasi","IN",7,6,30,"Client service associate","London",7
+"717","Tom","STAR BAKER",7,6,26,"Project engagement manager","Rochdale",1
+"718","Val",NA,7,6,66,"Semi-retired, Substitute teacher","Yeovil",NA
+"719","Andrew","STAR BAKER",7,7,25,"Aerospace engineer","Derby / Holywood, County Down",1
+"720","Benjamina","IN",7,7,23,"Teaching assistant","South London",3
+"721","Candice","IN",7,7,31,"PE teacher","Barton-Le-Clay, Bedfordshire",2
+"722","Jane","IN",7,7,61,"Garden designer","Beckenham",4
+"723","Kate",NA,7,7,37,"Nurse","Brooke, Norfolk",NA
+"724","Lee",NA,7,7,67,"Pastor","Bolton",NA
+"725","Louise",NA,7,7,46,"Hairdresser","Cardiff",NA
+"726","Michael",NA,7,7,20,"Student","Durham",NA
+"727","Rav",NA,7,7,28,"Student support","Erith",NA
+"728","Selasi","IN",7,7,30,"Client service associate","London",6
+"729","Tom","OUT",7,7,26,"Project engagement manager","Rochdale",5
+"730","Val",NA,7,7,66,"Semi-retired, Substitute teacher","Yeovil",NA
+"731","Andrew","IN",7,8,25,"Aerospace engineer","Derby / Holywood, County Down",2
+"732","Benjamina","OUT",7,8,23,"Teaching assistant","South London",4
+"733","Candice","STAR BAKER",7,8,31,"PE teacher","Barton-Le-Clay, Bedfordshire",1
+"734","Jane","IN",7,8,61,"Garden designer","Beckenham",5
+"735","Kate",NA,7,8,37,"Nurse","Brooke, Norfolk",NA
+"736","Lee",NA,7,8,67,"Pastor","Bolton",NA
+"737","Louise",NA,7,8,46,"Hairdresser","Cardiff",NA
+"738","Michael",NA,7,8,20,"Student","Durham",NA
+"739","Rav",NA,7,8,28,"Student support","Erith",NA
+"740","Selasi","IN",7,8,30,"Client service associate","London",3
+"741","Tom",NA,7,8,26,"Project engagement manager","Rochdale",NA
+"742","Val",NA,7,8,66,"Semi-retired, Substitute teacher","Yeovil",NA
+"743","Andrew","STAR BAKER",7,9,25,"Aerospace engineer","Derby / Holywood, County Down",2
+"744","Benjamina",NA,7,9,23,"Teaching assistant","South London",NA
+"745","Candice","IN",7,9,31,"PE teacher","Barton-Le-Clay, Bedfordshire",3
+"746","Jane","IN",7,9,61,"Garden designer","Beckenham",1
+"747","Kate",NA,7,9,37,"Nurse","Brooke, Norfolk",NA
+"748","Lee",NA,7,9,67,"Pastor","Bolton",NA
+"749","Louise",NA,7,9,46,"Hairdresser","Cardiff",NA
+"750","Michael",NA,7,9,20,"Student","Durham",NA
+"751","Rav",NA,7,9,28,"Student support","Erith",NA
+"752","Selasi","OUT",7,9,30,"Client service associate","London",4
+"753","Tom",NA,7,9,26,"Project engagement manager","Rochdale",NA
+"754","Val",NA,7,9,66,"Semi-retired, Substitute teacher","Yeovil",NA
+"755","Andrew","Runner-up",7,10,25,"Aerospace engineer","Derby / Holywood, County Down",1
+"756","Benjamina",NA,7,10,23,"Teaching assistant","South London",NA
+"757","Candice","WINNER",7,10,31,"PE teacher","Barton-Le-Clay, Bedfordshire",2
+"758","Jane","Runner-up",7,10,61,"Garden designer","Beckenham",3
+"759","Kate",NA,7,10,37,"Nurse","Brooke, Norfolk",NA
+"760","Lee",NA,7,10,67,"Pastor","Bolton",NA
+"761","Louise",NA,7,10,46,"Hairdresser","Cardiff",NA
+"762","Michael",NA,7,10,20,"Student","Durham",NA
+"763","Rav",NA,7,10,28,"Student support","Erith",NA
+"764","Selasi",NA,7,10,30,"Client service associate","London",NA
+"765","Tom",NA,7,10,26,"Project engagement manager","Rochdale",NA
+"766","Val",NA,7,10,66,"Semi-retired, Substitute teacher","Yeovil",NA
+"767","Chris","IN",8,1,50,"Software developer","Bristol",12
+"768","Yan","IN",8,1,46,"Laboratory research scientist","North London",4
+"769","Flo","IN",8,1,71,"Retired","Merseyside",9
+"770","James","IN",8,1,46,"Banker","Brentwood, Essex",2
+"771","Julia","IN",8,1,21,"Aviation Broker","Crawley, West Sussex",3
+"772","Kate","IN",8,1,29,"Health and safety inspector","Merseyside",1
+"773","Liam","IN",8,1,19,"Student","North London",8
+"774","Peter","OUT",8,1,52,"IT programme manager","Southend, Essex",10
+"775","Sophie","IN",8,1,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",5
+"776","Stacey","IN",8,1,42,"Former school teacher","Radlett, Hertfordshire",11
+"777","Steven","STAR BAKER",8,1,34,"Marketer","Watford, Hertfordshire",6
+"778","Tom","IN",8,1,29,"Architect","Edinburgh",7
+"779","Chris","OUT",8,2,50,"Software developer","Bristol",11
+"780","Yan","IN",8,2,46,"Laboratory research scientist","North London",1
+"781","Flo","IN",8,2,71,"Retired","Merseyside",10
+"782","James","IN",8,2,46,"Banker","Brentwood, Essex",3
+"783","Julia","IN",8,2,21,"Aviation Broker","Crawley, West Sussex",4
+"784","Kate","IN",8,2,29,"Health and safety inspector","Merseyside",8
+"785","Liam","IN",8,2,19,"Student","North London",7
+"786","Peter",NA,8,2,52,"IT programme manager","Southend, Essex",NA
+"787","Sophie","IN",8,2,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",2
+"788","Stacey","IN",8,2,42,"Former school teacher","Radlett, Hertfordshire",9
+"789","Steven","STAR BAKER",8,2,34,"Marketer","Watford, Hertfordshire",6
+"790","Tom","IN",8,2,29,"Architect","Edinburgh",5
+"791","Chris",NA,8,3,50,"Software developer","Bristol",NA
+"792","Yan","IN",8,3,46,"Laboratory research scientist","North London",8
+"793","Flo","OUT",8,3,71,"Retired","Merseyside",7
+"794","James","IN",8,3,46,"Banker","Brentwood, Essex",9
+"795","Julia","STAR BAKER",8,3,21,"Aviation Broker","Crawley, West Sussex",2
+"796","Kate","IN",8,3,29,"Health and safety inspector","Merseyside",10
+"797","Liam","IN",8,3,19,"Student","North London",5
+"798","Peter",NA,8,3,52,"IT programme manager","Southend, Essex",NA
+"799","Sophie","IN",8,3,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",6
+"800","Stacey","IN",8,3,42,"Former school teacher","Radlett, Hertfordshire",1
+"801","Steven","IN",8,3,34,"Marketer","Watford, Hertfordshire",3
+"802","Tom","IN",8,3,29,"Architect","Edinburgh",4
+"803","Chris",NA,8,4,50,"Software developer","Bristol",NA
+"804","Yan","IN",8,4,46,"Laboratory research scientist","North London",8
+"805","Flo",NA,8,4,71,"Retired","Merseyside",NA
+"806","James","IN",8,4,46,"Banker","Brentwood, Essex",2
+"807","Julia","IN",8,4,21,"Aviation Broker","Crawley, West Sussex",9
+"808","Kate","STAR BAKER",8,4,29,"Health and safety inspector","Merseyside",6
+"809","Liam","IN",8,4,19,"Student","North London",3
+"810","Peter",NA,8,4,52,"IT programme manager","Southend, Essex",NA
+"811","Sophie","IN",8,4,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",4
+"812","Stacey","IN",8,4,42,"Former school teacher","Radlett, Hertfordshire",1
+"813","Steven","IN",8,4,34,"Marketer","Watford, Hertfordshire",7
+"814","Tom","OUT",8,4,29,"Architect","Edinburgh",5
+"815","Chris",NA,8,5,50,"Software developer","Bristol",NA
+"816","Yan","IN",8,5,46,"Laboratory research scientist","North London",6
+"817","Flo",NA,8,5,71,"Retired","Merseyside",NA
+"818","James","OUT",8,5,46,"Banker","Brentwood, Essex",7
+"819","Julia","IN",8,5,21,"Aviation Broker","Crawley, West Sussex",3
+"820","Kate","IN",8,5,29,"Health and safety inspector","Merseyside",8
+"821","Liam","IN",8,5,19,"Student","North London",2
+"822","Peter",NA,8,5,52,"IT programme manager","Southend, Essex",NA
+"823","Sophie","STAR BAKER",8,5,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",1
+"824","Stacey","IN",8,5,42,"Former school teacher","Radlett, Hertfordshire",4
+"825","Steven","IN",8,5,34,"Marketer","Watford, Hertfordshire",5
+"826","Tom",NA,8,5,29,"Architect","Edinburgh",NA
+"827","Chris",NA,8,6,50,"Software developer","Bristol",NA
+"828","Yan","IN",8,6,46,"Laboratory research scientist","North London",1
+"829","Flo",NA,8,6,71,"Retired","Merseyside",NA
+"830","James",NA,8,6,46,"Banker","Brentwood, Essex",NA
+"831","Julia","OUT",8,6,21,"Aviation Broker","Crawley, West Sussex",7
+"832","Kate","IN",8,6,29,"Health and safety inspector","Merseyside",5
+"833","Liam","STAR BAKER",8,6,19,"Student","North London",4
+"834","Peter",NA,8,6,52,"IT programme manager","Southend, Essex",NA
+"835","Sophie","IN",8,6,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",2
+"836","Stacey","IN",8,6,42,"Former school teacher","Radlett, Hertfordshire",6
+"837","Steven","IN",8,6,34,"Marketer","Watford, Hertfordshire",3
+"838","Tom",NA,8,6,29,"Architect","Edinburgh",NA
+"839","Chris",NA,8,7,50,"Software developer","Bristol",NA
+"840","Yan","OUT",8,7,46,"Laboratory research scientist","North London",5
+"841","Flo",NA,8,7,71,"Retired","Merseyside",NA
+"842","James",NA,8,7,46,"Banker","Brentwood, Essex",NA
+"843","Julia",NA,8,7,21,"Aviation Broker","Crawley, West Sussex",NA
+"844","Kate","IN",8,7,29,"Health and safety inspector","Merseyside",6
+"845","Liam","IN",8,7,19,"Student","North London",2
+"846","Peter",NA,8,7,52,"IT programme manager","Southend, Essex",NA
+"847","Sophie","IN",8,7,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",3
+"848","Stacey","IN",8,7,42,"Former school teacher","Radlett, Hertfordshire",4
+"849","Steven","STAR BAKER",8,7,34,"Marketer","Watford, Hertfordshire",1
+"850","Tom",NA,8,7,29,"Architect","Edinburgh",NA
+"851","Chris",NA,8,8,50,"Software developer","Bristol",NA
+"852","Yan",NA,8,8,46,"Laboratory research scientist","North London",NA
+"853","Flo",NA,8,8,71,"Retired","Merseyside",NA
+"854","James",NA,8,8,46,"Banker","Brentwood, Essex",NA
+"855","Julia",NA,8,8,21,"Aviation Broker","Crawley, West Sussex",NA
+"856","Kate","IN",8,8,29,"Health and safety inspector","Merseyside",2
+"857","Liam","OUT",8,8,19,"Student","North London",5
+"858","Peter",NA,8,8,52,"IT programme manager","Southend, Essex",NA
+"859","Sophie","IN",8,8,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",4
+"860","Stacey","STAR BAKER",8,8,42,"Former school teacher","Radlett, Hertfordshire",3
+"861","Steven","IN",8,8,34,"Marketer","Watford, Hertfordshire",1
+"862","Tom",NA,8,8,29,"Architect","Edinburgh",NA
+"863","Chris",NA,8,9,50,"Software developer","Bristol",NA
+"864","Yan",NA,8,9,46,"Laboratory research scientist","North London",NA
+"865","Flo",NA,8,9,71,"Retired","Merseyside",NA
+"866","James",NA,8,9,46,"Banker","Brentwood, Essex",NA
+"867","Julia",NA,8,9,21,"Aviation Broker","Crawley, West Sussex",NA
+"868","Kate","IN",8,9,29,"Health and safety inspector","Merseyside",4
+"869","Liam",NA,8,9,19,"Student","North London",NA
+"870","Peter",NA,8,9,52,"IT programme manager","Southend, Essex",NA
+"871","Sophie","STAR BAKER",8,9,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",1
+"872","Stacey","OUT",8,9,42,"Former school teacher","Radlett, Hertfordshire",2
+"873","Steven","IN",8,9,34,"Marketer","Watford, Hertfordshire",3
+"874","Tom",NA,8,9,29,"Architect","Edinburgh",NA
+"875","Chris",NA,8,10,50,"Software developer","Bristol",NA
+"876","Yan",NA,8,10,46,"Laboratory research scientist","North London",NA
+"877","Flo",NA,8,10,71,"Retired","Merseyside",NA
+"878","James",NA,8,10,46,"Banker","Brentwood, Essex",NA
+"879","Julia",NA,8,10,21,"Aviation Broker","Crawley, West Sussex",NA
+"880","Kate","Runner-up",8,10,29,"Health and safety inspector","Merseyside",3
+"881","Liam",NA,8,10,19,"Student","North London",NA
+"882","Peter",NA,8,10,52,"IT programme manager","Southend, Essex",NA
+"883","Sophie","WINNER",8,10,33,"Former army officer and trainee stuntwoman","West Molesey, Surrey",2
+"884","Stacey",NA,8,10,42,"Former school teacher","Radlett, Hertfordshire",NA
+"885","Steven","Runner-up",8,10,34,"Marketer","Watford, Hertfordshire",1
+"886","Tom",NA,8,10,29,"Architect","Edinburgh",NA
+"887","Antony","IN",9,1,30,"Banker","London",12
+"888","Briony","IN",9,1,33,"Full-time parent","Bristol",2
+"889","Dan","IN",9,1,36,"Full-time parent","London",4
+"890","Imelda","OUT",9,1,33,"Countryside recreation officer","County Tyrone",11
+"891","Jon","IN",9,1,47,"Blood courier","Newport",5
+"892","Karen","IN",9,1,60,"In-store sampling assistant","Wakefield",6
+"893","Kim-Joy","IN",9,1,27,"Mental health specialist","Leeds",10
+"894","Luke","IN",9,1,30,"Civil servant/house and techno DJ","Sheffield",8
+"895","Manon","STAR BAKER",9,1,26,"Software project manager","London",3
+"896","Rahul","IN",9,1,30,"Research scientist","Rotherham",7
+"897","Ruby","IN",9,1,29,"Project manager","London",1
+"898","Terry","IN",9,1,56,"Retired air steward","West Midlands",9
+"899","Antony","IN",9,2,30,"Banker","London",9
+"900","Briony","IN",9,2,33,"Full-time parent","Bristol",5
+"901","Dan","IN",9,2,36,"Full-time parent","London",3
+"902","Imelda",NA,9,2,33,"Countryside recreation officer","County Tyrone",NA
+"903","Jon","IN",9,2,47,"Blood courier","Newport",1
+"904","Karen","IN",9,2,60,"In-store sampling assistant","Wakefield",11
+"905","Kim-Joy","IN",9,2,27,"Mental health specialist","Leeds",4
+"906","Luke","OUT",9,2,30,"Civil servant/house and techno DJ","Sheffield",7
+"907","Manon","IN",9,2,26,"Software project manager","London",6
+"908","Rahul","STAR BAKER",9,2,30,"Research scientist","Rotherham",2
+"909","Ruby","IN",9,2,29,"Project manager","London",10
+"910","Terry","IN",9,2,56,"Retired air steward","West Midlands",8
+"911","Antony","OUT",9,3,30,"Banker","London",8
+"912","Briony","IN",9,3,33,"Full-time parent","Bristol",9
+"913","Dan","IN",9,3,36,"Full-time parent","London",6
+"914","Imelda",NA,9,3,33,"Countryside recreation officer","County Tyrone",NA
+"915","Jon","IN",9,3,47,"Blood courier","Newport",2
+"916","Karen","IN",9,3,60,"In-store sampling assistant","Wakefield",5
+"917","Kim-Joy","IN",9,3,27,"Mental health specialist","Leeds",10
+"918","Luke",NA,9,3,30,"Civil servant/house and techno DJ","Sheffield",NA
+"919","Manon","IN",9,3,26,"Software project manager","London",3
+"920","Rahul","STAR BAKER",9,3,30,"Research scientist","Rotherham",4
+"921","Ruby","IN",9,3,29,"Project manager","London",7
+"922","Terry","IN",9,3,56,"Retired air steward","West Midlands",1
+"923","Antony",NA,9,4,30,"Banker","London",NA
+"924","Briony","IN",9,4,33,"Full-time parent","Bristol",5
+"925","Dan","STAR BAKER",9,4,36,"Full-time parent","London",1
+"926","Imelda",NA,9,4,33,"Countryside recreation officer","County Tyrone",NA
+"927","Jon","IN",9,4,47,"Blood courier","Newport",3
+"928","Karen","IN",9,4,60,"In-store sampling assistant","Wakefield",7
+"929","Kim-Joy","IN",9,4,27,"Mental health specialist","Leeds",6
+"930","Luke",NA,9,4,30,"Civil servant/house and techno DJ","Sheffield",NA
+"931","Manon","IN",9,4,26,"Software project manager","London",8
+"932","Rahul","IN",9,4,30,"Research scientist","Rotherham",4
+"933","Ruby","IN",9,4,29,"Project manager","London",2
+"934","Terry","[a]",9,4,56,"Retired air steward","West Midlands",NA
+"935","Antony",NA,9,5,30,"Banker","London",NA
+"936","Briony","IN",9,5,33,"Full-time parent","Bristol",6
+"937","Dan","IN",9,5,36,"Full-time parent","London",2
+"938","Imelda",NA,9,5,33,"Countryside recreation officer","County Tyrone",NA
+"939","Jon","IN",9,5,47,"Blood courier","Newport",7
+"940","Karen","OUT",9,5,60,"In-store sampling assistant","Wakefield",9
+"941","Kim-Joy","STAR BAKER",9,5,27,"Mental health specialist","Leeds",4
+"942","Luke",NA,9,5,30,"Civil servant/house and techno DJ","Sheffield",NA
+"943","Manon","IN",9,5,26,"Software project manager","London",5
+"944","Rahul","IN",9,5,30,"Research scientist","Rotherham",3
+"945","Ruby","IN",9,5,29,"Project manager","London",1
+"946","Terry","OUT",9,5,56,"Retired air steward","West Midlands",8
+"947","Antony",NA,9,6,30,"Banker","London",NA
+"948","Briony","STAR BAKER",9,6,33,"Full-time parent","Bristol",1
+"949","Dan","OUT",9,6,36,"Full-time parent","London",6
+"950","Imelda",NA,9,6,33,"Countryside recreation officer","County Tyrone",NA
+"951","Jon","IN",9,6,47,"Blood courier","Newport",2
+"952","Karen",NA,9,6,60,"In-store sampling assistant","Wakefield",NA
+"953","Kim-Joy","IN",9,6,27,"Mental health specialist","Leeds",5
+"954","Luke",NA,9,6,30,"Civil servant/house and techno DJ","Sheffield",NA
+"955","Manon","IN",9,6,26,"Software project manager","London",4
+"956","Rahul","IN",9,6,30,"Research scientist","Rotherham",3
+"957","Ruby","IN",9,6,29,"Project manager","London",7
+"958","Terry",NA,9,6,56,"Retired air steward","West Midlands",NA
+"959","Antony",NA,9,7,30,"Banker","London",NA
+"960","Briony","IN",9,7,33,"Full-time parent","Bristol",5
+"961","Dan",NA,9,7,36,"Full-time parent","London",NA
+"962","Imelda",NA,9,7,33,"Countryside recreation officer","County Tyrone",NA
+"963","Jon","OUT",9,7,47,"Blood courier","Newport",4
+"964","Karen",NA,9,7,60,"In-store sampling assistant","Wakefield",NA
+"965","Kim-Joy","STAR BAKER",9,7,27,"Mental health specialist","Leeds",6
+"966","Luke",NA,9,7,30,"Civil servant/house and techno DJ","Sheffield",NA
+"967","Manon","IN",9,7,26,"Software project manager","London",2
+"968","Rahul","IN",9,7,30,"Research scientist","Rotherham",1
+"969","Ruby","IN",9,7,29,"Project manager","London",3
+"970","Terry",NA,9,7,56,"Retired air steward","West Midlands",NA
+"971","Antony",NA,9,8,30,"Banker","London",NA
+"972","Briony","IN",9,8,33,"Full-time parent","Bristol",1
+"973","Dan",NA,9,8,36,"Full-time parent","London",NA
+"974","Imelda",NA,9,8,33,"Countryside recreation officer","County Tyrone",NA
+"975","Jon",NA,9,8,47,"Blood courier","Newport",NA
+"976","Karen",NA,9,8,60,"In-store sampling assistant","Wakefield",NA
+"977","Kim-Joy","IN",9,8,27,"Mental health specialist","Leeds",2
+"978","Luke",NA,9,8,30,"Civil servant/house and techno DJ","Sheffield",NA
+"979","Manon","OUT",9,8,26,"Software project manager","London",4
+"980","Rahul","IN",9,8,30,"Research scientist","Rotherham",5
+"981","Ruby","STAR BAKER",9,8,29,"Project manager","London",3
+"982","Terry",NA,9,8,56,"Retired air steward","West Midlands",NA
+"983","Antony",NA,9,9,30,"Banker","London",NA
+"984","Briony","OUT",9,9,33,"Full-time parent","Bristol",3
+"985","Dan",NA,9,9,36,"Full-time parent","London",NA
+"986","Imelda",NA,9,9,33,"Countryside recreation officer","County Tyrone",NA
+"987","Jon",NA,9,9,47,"Blood courier","Newport",NA
+"988","Karen",NA,9,9,60,"In-store sampling assistant","Wakefield",NA
+"989","Kim-Joy","IN",9,9,27,"Mental health specialist","Leeds",2
+"990","Luke",NA,9,9,30,"Civil servant/house and techno DJ","Sheffield",NA
+"991","Manon",NA,9,9,26,"Software project manager","London",NA
+"992","Rahul","IN",9,9,30,"Research scientist","Rotherham",4
+"993","Ruby","STAR BAKER",9,9,29,"Project manager","London",1
+"994","Terry",NA,9,9,56,"Retired air steward","West Midlands",NA
+"995","Antony",NA,9,10,30,"Banker","London",NA
+"996","Briony",NA,9,10,33,"Full-time parent","Bristol",NA
+"997","Dan",NA,9,10,36,"Full-time parent","London",NA
+"998","Imelda",NA,9,10,33,"Countryside recreation officer","County Tyrone",NA
+"999","Jon",NA,9,10,47,"Blood courier","Newport",NA
+"1000","Karen",NA,9,10,60,"In-store sampling assistant","Wakefield",NA
+"1001","Kim-Joy","Runner-up",9,10,27,"Mental health specialist","Leeds",1
+"1002","Luke",NA,9,10,30,"Civil servant/house and techno DJ","Sheffield",NA
+"1003","Manon",NA,9,10,26,"Software project manager","London",NA
+"1004","Rahul","WINNER",9,10,30,"Research scientist","Rotherham",2
+"1005","Ruby","Runner-up",9,10,29,"Project manager","London",3
+"1006","Terry",NA,9,10,56,"Retired air steward","West Midlands",NA
+"1007","Alice","IN",10,1,28,"Geography teacher","Essex",5
+"1008","Amelia","IN",10,1,24,"Fashion designer","Halifax",4
+"1009","Dan","OUT",10,1,32,"Support worker","Rotherham",9
+"1010","David","IN",10,1,36,"International health adviser","Whitby",10
+"1011","Helena","IN",10,1,40,"Online project manager","Leeds",12
+"1012","Henry","IN",10,1,20,"Student","Durham",1
+"1013","Jamie","IN",10,1,20,"Part-time waiter","Surrey",13
+"1014","Michael","IN",10,1,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",11
+"1015","Michelle","STAR BAKER",10,1,35,"Print shop administrator","Tenby, Wales",6
+"1016","Phil","IN",10,1,56,"HGV driver","Rainham",8
+"1017","Priya","IN",10,1,34,"Marketing consultant","Leicester",7
+"1018","Rosie","IN",10,1,28,"Veterinary surgeon","Somerset",2
+"1019","Steph","IN",10,1,28,"Shop assistant","Chester",3
+"1020","Alice","STAR BAKER",10,2,28,"Geography teacher","Essex",1
+"1021","Amelia","IN",10,2,24,"Fashion designer","Halifax",9
+"1022","Dan",NA,10,2,32,"Support worker","Rotherham",NA
+"1023","David","IN",10,2,36,"International health adviser","Whitby",2
+"1024","Helena","IN",10,2,40,"Online project manager","Leeds",12
+"1025","Henry","IN",10,2,20,"Student","Durham",6
+"1026","Jamie","OUT",10,2,20,"Part-time waiter","Surrey",11
+"1027","Michael","IN",10,2,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",4
+"1028","Michelle","IN",10,2,35,"Print shop administrator","Tenby, Wales",8
+"1029","Phil","IN",10,2,56,"HGV driver","Rainham",3
+"1030","Priya","IN",10,2,34,"Marketing consultant","Leicester",7
+"1031","Rosie","IN",10,2,28,"Veterinary surgeon","Somerset",5
+"1032","Steph","IN",10,2,28,"Shop assistant","Chester",10
+"1033","Alice","IN",10,3,28,"Geography teacher","Essex",7
+"1034","Amelia","OUT",10,3,24,"Fashion designer","Halifax",11
+"1035","Dan",NA,10,3,32,"Support worker","Rotherham",NA
+"1036","David","IN",10,3,36,"International health adviser","Whitby",2
+"1037","Helena","IN",10,3,40,"Online project manager","Leeds",8
+"1038","Henry","IN",10,3,20,"Student","Durham",1
+"1039","Jamie",NA,10,3,20,"Part-time waiter","Surrey",NA
+"1040","Michael","STAR BAKER",10,3,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",6
+"1041","Michelle","IN",10,3,35,"Print shop administrator","Tenby, Wales",5
+"1042","Phil","IN",10,3,56,"HGV driver","Rainham",10
+"1043","Priya","IN",10,3,34,"Marketing consultant","Leicester",4
+"1044","Rosie","IN",10,3,28,"Veterinary surgeon","Somerset",9
+"1045","Steph","IN",10,3,28,"Shop assistant","Chester",3
+"1046","Alice","IN",10,4,28,"Geography teacher","Essex",8
+"1047","Amelia",NA,10,4,24,"Fashion designer","Halifax",NA
+"1048","Dan",NA,10,4,32,"Support worker","Rotherham",NA
+"1049","David","IN",10,4,36,"International health adviser","Whitby",2
+"1050","Helena","IN",10,4,40,"Online project manager","Leeds",9
+"1051","Henry","IN",10,4,20,"Student","Durham",3
+"1052","Jamie",NA,10,4,20,"Part-time waiter","Surrey",NA
+"1053","Michael","IN",10,4,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",7
+"1054","Michelle","IN",10,4,35,"Print shop administrator","Tenby, Wales",5
+"1055","Phil","OUT",10,4,56,"HGV driver","Rainham",6
+"1056","Priya","IN",10,4,34,"Marketing consultant","Leicester",10
+"1057","Rosie","IN",10,4,28,"Veterinary surgeon","Somerset",4
+"1058","Steph","STAR BAKER",10,4,28,"Shop assistant","Chester",1
+"1059","Alice","IN",10,5,28,"Geography teacher","Essex",6
+"1060","Amelia",NA,10,5,24,"Fashion designer","Halifax",NA
+"1061","Dan",NA,10,5,32,"Support worker","Rotherham",NA
+"1062","David","IN",10,5,36,"International health adviser","Whitby",9
+"1063","Helena","OUT",10,5,40,"Online project manager","Leeds",1
+"1064","Henry","IN",10,5,20,"Student","Durham",3
+"1065","Jamie",NA,10,5,20,"Part-time waiter","Surrey",NA
+"1066","Michael","IN",10,5,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",8
+"1067","Michelle","OUT",10,5,35,"Print shop administrator","Tenby, Wales",7
+"1068","Phil",NA,10,5,56,"HGV driver","Rainham",NA
+"1069","Priya","IN",10,5,34,"Marketing consultant","Leicester",2
+"1070","Rosie","IN",10,5,28,"Veterinary surgeon","Somerset",5
+"1071","Steph","STAR BAKER",10,5,28,"Shop assistant","Chester",4
+"1072","Alice","IN",10,6,28,"Geography teacher","Essex",1
+"1073","Amelia",NA,10,6,24,"Fashion designer","Halifax",NA
+"1074","Dan",NA,10,6,32,"Support worker","Rotherham",NA
+"1075","David","IN",10,6,36,"International health adviser","Whitby",2
+"1076","Helena",NA,10,6,40,"Online project manager","Leeds",NA
+"1077","Henry","IN",10,6,20,"Student","Durham",4
+"1078","Jamie",NA,10,6,20,"Part-time waiter","Surrey",NA
+"1079","Michael","IN",10,6,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",6
+"1080","Michelle",NA,10,6,35,"Print shop administrator","Tenby, Wales",NA
+"1081","Phil",NA,10,6,56,"HGV driver","Rainham",NA
+"1082","Priya","OUT",10,6,34,"Marketing consultant","Leicester",7
+"1083","Rosie","IN",10,6,28,"Veterinary surgeon","Somerset",5
+"1084","Steph","STAR BAKER",10,6,28,"Shop assistant","Chester",3
+"1085","Alice","IN",10,7,28,"Geography teacher","Essex",6
+"1086","Amelia",NA,10,7,24,"Fashion designer","Halifax",NA
+"1087","Dan",NA,10,7,32,"Support worker","Rotherham",NA
+"1088","David","IN",10,7,36,"International health adviser","Whitby",2
+"1089","Helena",NA,10,7,40,"Online project manager","Leeds",NA
+"1090","Henry","STAR BAKER",10,7,20,"Student","Durham",3
+"1091","Jamie",NA,10,7,20,"Part-time waiter","Surrey",NA
+"1092","Michael","OUT",10,7,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",5
+"1093","Michelle",NA,10,7,35,"Print shop administrator","Tenby, Wales",NA
+"1094","Phil",NA,10,7,56,"HGV driver","Rainham",NA
+"1095","Priya",NA,10,7,34,"Marketing consultant","Leicester",NA
+"1096","Rosie","IN",10,7,28,"Veterinary surgeon","Somerset",1
+"1097","Steph","IN",10,7,28,"Shop assistant","Chester",4
+"1098","Alice","IN",10,8,28,"Geography teacher","Essex",3
+"1099","Amelia",NA,10,8,24,"Fashion designer","Halifax",NA
+"1100","Dan",NA,10,8,32,"Support worker","Rotherham",NA
+"1101","David","IN",10,8,36,"International health adviser","Whitby",1
+"1102","Helena",NA,10,8,40,"Online project manager","Leeds",NA
+"1103","Henry","OUT",10,8,20,"Student","Durham",5
+"1104","Jamie",NA,10,8,20,"Part-time waiter","Surrey",NA
+"1105","Michael",NA,10,8,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",NA
+"1106","Michelle",NA,10,8,35,"Print shop administrator","Tenby, Wales",NA
+"1107","Phil",NA,10,8,56,"HGV driver","Rainham",NA
+"1108","Priya",NA,10,8,34,"Marketing consultant","Leicester",NA
+"1109","Rosie","IN",10,8,28,"Veterinary surgeon","Somerset",2
+"1110","Steph","STAR BAKER",10,8,28,"Shop assistant","Chester",4
+"1111","Alice","STAR BAKER",10,9,28,"Geography teacher","Essex",4
+"1112","Amelia",NA,10,9,24,"Fashion designer","Halifax",NA
+"1113","Dan",NA,10,9,32,"Support worker","Rotherham",NA
+"1114","David","IN",10,9,36,"International health adviser","Whitby",2
+"1115","Helena",NA,10,9,40,"Online project manager","Leeds",NA
+"1116","Henry",NA,10,9,20,"Student","Durham",NA
+"1117","Jamie",NA,10,9,20,"Part-time waiter","Surrey",NA
+"1118","Michael",NA,10,9,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",NA
+"1119","Michelle",NA,10,9,35,"Print shop administrator","Tenby, Wales",NA
+"1120","Phil",NA,10,9,56,"HGV driver","Rainham",NA
+"1121","Priya",NA,10,9,34,"Marketing consultant","Leicester",NA
+"1122","Rosie","OUT",10,9,28,"Veterinary surgeon","Somerset",1
+"1123","Steph","IN",10,9,28,"Shop assistant","Chester",3
+"1124","Alice","Runner-up",10,10,28,"Geography teacher","Essex",2
+"1125","Amelia",NA,10,10,24,"Fashion designer","Halifax",NA
+"1126","Dan",NA,10,10,32,"Support worker","Rotherham",NA
+"1127","David","WINNER",10,10,36,"International health adviser","Whitby",1
+"1128","Helena",NA,10,10,40,"Online project manager","Leeds",NA
+"1129","Henry",NA,10,10,20,"Student","Durham",NA
+"1130","Jamie",NA,10,10,20,"Part-time waiter","Surrey",NA
+"1131","Michael",NA,10,10,26,"Theatre manager/fitness instructor","Stratford-upon-Avon",NA
+"1132","Michelle",NA,10,10,35,"Print shop administrator","Tenby, Wales",NA
+"1133","Phil",NA,10,10,56,"HGV driver","Rainham",NA
+"1134","Priya",NA,10,10,34,"Marketing consultant","Leicester",NA
+"1135","Rosie",NA,10,10,28,"Veterinary surgeon","Somerset",NA
+"1136","Steph","Runner-up",10,10,28,"Shop assistant","Chester",3

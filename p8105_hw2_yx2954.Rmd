@@ -196,8 +196,11 @@ As **bakers_df** contains all participant info, we should further merge the data
 ```{r}
 merge_df = bakers_df |>
   left_join(results_df, c("baker", "series")) |>
-  select(baker, baker_age, baker_occupation, hometown, everything()) |>
-  arrange(series)
+  select(baker, result, series, episode, everything()) |>
+  arrange(series, episode)
+
+write.csv(merge_df, file = "data/gbb_datasets/merged.csv")
+
 ```
 
 
@@ -212,10 +215,11 @@ merge_df = bakers_df |>
     * Further doing mutual check, I found that the proportion of missing info is sorted by: **bakers_df** > **results_df** > **bakers_df**. Also, all bakers in **bakes_df** can be found in **results_df**, all bakers in **results_df** can be found in **bakers_df**. Therefore, should first merge the smallest data frame to the medium one, and eventually to the largest on, i.e **bakes_df** to **results_df** to **bakers_df**. 
 
 *   3. Merged into final dataset
-    * Finally rearrange the order of variable and observations to make it more reasonable. In specific, I put personal information in front of competition results, and sorted the observation by name in ascending order.
+    * Finally rearrange the order of variable and observations to make it more reasonable. In specific, I put importan information, including name, the episode they are involved and result in the front, and left less important information in the back.
     
 *   4. Brief description of final dataset
     * The dimensions of the dataframe are **`r nrow(merge_df)`** rows and **`r ncol(merge_df)`** columns. **`r ncol(merge_df)`** variables are bakers' name, age, occupation, hometown, and the series, episodes they were involved in, as well as the scores and results.
 
-    
+
+
 
