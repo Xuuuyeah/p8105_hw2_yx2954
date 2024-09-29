@@ -168,8 +168,8 @@ check correctness
 
 ```{r, message = FALSE}
 anti_join(bakes_df, bakers_df, by = "baker", "series")
-anti_join(bakers_df, results_df, by = "baker", "series")
 anti_join(results_df, bakers_df, by = "baker", "series")
+anti_join(bakers_df, results_df, by = "baker", "series")
 ```
 
 Comparing the results abve, we may infer that **"Jo"** in **bakes_df**, **Jo** in **bakers_df**, and **Joanne** in **results_df** are the same person, as they both showed in series 2, and remained from episode 1 to 8. 
